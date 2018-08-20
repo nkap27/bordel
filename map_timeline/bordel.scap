@@ -1,0 +1,731 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ScappleDocument Version="1.1" ID="044D89FB-58CB-4D27-BF2B-9D4DCA983D27">
+    <Notes>
+        <Note ID="0" FontSize="12.0" Position="128.329951,186.233792" Width="326.0">
+            <Appearance>
+                <Alignment>Left</Alignment>
+            </Appearance>
+            <String>1. Natasha values: learning more on rails</String>
+        </Note>
+        <Note ID="1" FontSize="12.0" Position="131.329951,223.233792" Width="604.0">
+            <Appearance>
+                <Alignment>Left</Alignment>
+            </Appearance>
+            <String>2. Russell values: creative deployment of current knowledge with unsolved problems or consumer pain points.</String>
+        </Note>
+        <Note ID="2" FontSize="12.0" Position="94.329951,155.233792" Width="51.0">
+            <Appearance>
+                <Alignment>Left</Alignment>
+            </Appearance>
+            <String>Values:</String>
+            <Formatting>
+                <FormatRange Bold="Yes">0,7</FormatRange>
+            </Formatting>
+        </Note>
+        <Note ID="3" FontSize="12.0" Position="85.945429,275.585354" Width="85.0">
+            <Appearance>
+                <Alignment>Left</Alignment>
+            </Appearance>
+            <String>The Problem:</String>
+            <Formatting>
+                <FormatRange Bold="Yes">0,12</FormatRange>
+            </Formatting>
+        </Note>
+        <Note ID="4" FontSize="12.0" Position="122.945429,314.585354" Width="531.0">
+            <Appearance>
+                <Alignment>Left</Alignment>
+            </Appearance>
+            <String>1. Within our community, we are not able to share events that we like to attend.</String>
+        </Note>
+        <Note ID="5" FontSize="12.0" Position="121.945429,349.585354" Width="609.0">
+            <Appearance>
+                <Alignment>Left</Alignment>
+            </Appearance>
+            <String>2. It is difficult to find out your friend’s favorite places to eat, drink or concert-go, and to plan to go together.</String>
+        </Note>
+        <Note ID="6" FontSize="12.0" Position="865.594683,154.484375" Width="59.0">
+            <Appearance>
+                <Alignment>Left</Alignment>
+            </Appearance>
+            <String>Features</String>
+            <Formatting>
+                <FormatRange Bold="Yes">0,8</FormatRange>
+            </Formatting>
+        </Note>
+        <Note ID="7" FontSize="12.0" Position="892.594683,189.484375" Width="102.0">
+            <Appearance>
+                <Alignment>Left</Alignment>
+            </Appearance>
+            <String>1. Filter by friend</String>
+        </Note>
+        <Note ID="8" FontSize="12.0" Position="441.242548,777.216702" Width="69.0">
+            <Appearance>
+                <Alignment>Left</Alignment>
+            </Appearance>
+            <String>Casse-cou</String>
+            <ConnectedNoteIDs>18, 20-21, 27-28, 50, 90, 92-93</ConnectedNoteIDs>
+            <PointsToNoteIDs>18, 20</PointsToNoteIDs>
+            <Formatting>
+                <FormatRange Bold="Yes">0,9</FormatRange>
+            </Formatting>
+        </Note>
+        <Note ID="9" FontSize="12.0" Position="578.242548,507.216702" Width="37.0">
+            <Appearance>
+                <Alignment>Left</Alignment>
+            </Appearance>
+            <String>Salle</String>
+            <ConnectedNoteIDs>10, 13-15, 18, 91, 95</ConnectedNoteIDs>
+            <PointsToNoteIDs>10, 18</PointsToNoteIDs>
+            <Formatting>
+                <FormatRange Bold="Yes">0,5</FormatRange>
+            </Formatting>
+        </Note>
+        <Note ID="10" FontSize="12.0" Position="228.242548,589.216702" Width="52.0">
+            <Appearance>
+                <Alignment>Left</Alignment>
+            </Appearance>
+            <String>Soirée</String>
+            <ConnectedNoteIDs>9, 11-12, 17, 20, 22, 26, 45, 94</ConnectedNoteIDs>
+            <PointsToNoteIDs>20</PointsToNoteIDs>
+            <Formatting>
+                <FormatRange Bold="Yes">0,6</FormatRange>
+            </Formatting>
+        </Note>
+        <Note ID="11" FontSize="12.0" Position="145.242548,652.216702" Width="42.0">
+            <Appearance>
+                <Alignment>Left</Alignment>
+            </Appearance>
+            <String>- Time</String>
+            <ConnectedNoteIDs>10</ConnectedNoteIDs>
+            <Formatting>
+                <FormatRange Underline="Yes">0,6</FormatRange>
+            </Formatting>
+        </Note>
+        <Note ID="12" FontSize="12.0" Position="159.242548,555.216702" Width="38.0">
+            <Appearance>
+                <Alignment>Left</Alignment>
+            </Appearance>
+            <String>- Title</String>
+            <ConnectedNoteIDs>10</ConnectedNoteIDs>
+            <Formatting>
+                <FormatRange Underline="Yes">0,7</FormatRange>
+            </Formatting>
+        </Note>
+        <Note ID="13" FontSize="12.0" Position="589.384834,443.87347" Width="48.0">
+            <Appearance>
+                <Alignment>Left</Alignment>
+            </Appearance>
+            <String>- Name</String>
+            <ConnectedNoteIDs>9</ConnectedNoteIDs>
+            <Formatting>
+                <FormatRange Underline="Yes">0,6</FormatRange>
+            </Formatting>
+        </Note>
+        <Note ID="14" FontSize="12.0" Position="641.809464,475.820552" Width="59.0">
+            <Appearance>
+                <Alignment>Left</Alignment>
+            </Appearance>
+            <String>- Address</String>
+            <ConnectedNoteIDs>9</ConnectedNoteIDs>
+            <Formatting>
+                <FormatRange Underline="Yes">0,9</FormatRange>
+            </Formatting>
+        </Note>
+        <Note ID="15" FontSize="12.0" Position="632.289453,524.474198" Width="65.0">
+            <Appearance>
+                <Alignment>Left</Alignment>
+            </Appearance>
+            <String>- Category</String>
+            <ConnectedNoteIDs>9</ConnectedNoteIDs>
+            <Formatting>
+                <FormatRange Underline="Yes">0,10</FormatRange>
+            </Formatting>
+        </Note>
+        <Note ID="17" FontSize="12.0" Position="107.242548,603.216702" Width="76.0">
+            <Appearance>
+                <Alignment>Left</Alignment>
+            </Appearance>
+            <String>- Description</String>
+            <ConnectedNoteIDs>10</ConnectedNoteIDs>
+            <Formatting>
+                <FormatRange Underline="Yes">0,13</FormatRange>
+            </Formatting>
+        </Note>
+        <Note ID="18" FontSize="12.0" Position="556.027644,636.815341" Width="45.0">
+            <Appearance>
+                <Alignment>Left</Alignment>
+            </Appearance>
+            <String>Revue</String>
+            <ConnectedNoteIDs>8-9, 25, 49, 86</ConnectedNoteIDs>
+            <Formatting>
+                <FormatRange Bold="Yes" Italic="Yes">0,5</FormatRange>
+            </Formatting>
+        </Note>
+        <Note ID="20" FontSize="12.0" Position="315.0,688.0" Width="64.0">
+            <Appearance>
+                <Alignment>Left</Alignment>
+            </Appearance>
+            <String>Comment</String>
+            <ConnectedNoteIDs>8, 10, 53</ConnectedNoteIDs>
+            <Formatting>
+                <FormatRange Bold="Yes">0,7</FormatRange>
+            </Formatting>
+        </Note>
+        <Note ID="21" FontSize="12.0" Position="496.242548,829.216702" Width="48.0">
+            <Appearance>
+                <Alignment>Left</Alignment>
+            </Appearance>
+            <String>- Name</String>
+            <ConnectedNoteIDs>8</ConnectedNoteIDs>
+            <Formatting>
+                <FormatRange Underline="Yes">0,6</FormatRange>
+            </Formatting>
+        </Note>
+        <Note ID="22" FontSize="12.0" Position="78.242548,564.216702" Width="63.0">
+            <Appearance>
+                <Alignment>Left</Alignment>
+            </Appearance>
+            <String>- Capacity</String>
+            <ConnectedNoteIDs>10</ConnectedNoteIDs>
+            <Formatting>
+                <FormatRange Underline="Yes">0,10</FormatRange>
+            </Formatting>
+        </Note>
+        <Note ID="25" FontSize="12.0" Position="618.109471,606.907091" Width="51.0">
+            <Appearance>
+                <Alignment>Left</Alignment>
+            </Appearance>
+            <String>- Rating</String>
+            <ConnectedNoteIDs>18</ConnectedNoteIDs>
+            <Formatting>
+                <FormatRange Underline="Yes">0,8</FormatRange>
+            </Formatting>
+        </Note>
+        <Note ID="26" FontSize="12.0" Position="216.242548,541.216702" Width="65.0">
+            <Appearance>
+                <Alignment>Left</Alignment>
+            </Appearance>
+            <String>- Category</String>
+            <ConnectedNoteIDs>10</ConnectedNoteIDs>
+            <Formatting>
+                <FormatRange Underline="Yes">0,10</FormatRange>
+            </Formatting>
+        </Note>
+        <Note ID="27" FontSize="12.0" Position="427.225306,828.966565" Width="53.0">
+            <Appearance>
+                <Alignment>Left</Alignment>
+            </Appearance>
+            <String>- Picture</String>
+            <ConnectedNoteIDs>8</ConnectedNoteIDs>
+            <Formatting>
+                <FormatRange Italic="Yes">0,9</FormatRange>
+            </Formatting>
+        </Note>
+        <Note ID="28" FontSize="12.0" Position="536.556927,798.916958" Width="33.0">
+            <Appearance>
+                <Alignment>Left</Alignment>
+            </Appearance>
+            <String>- Bio</String>
+            <ConnectedNoteIDs>8</ConnectedNoteIDs>
+            <Formatting>
+                <FormatRange Underline="Yes">0,5</FormatRange>
+            </Formatting>
+        </Note>
+        <Note ID="30" FontSize="12.0" Position="71.428095,415.686673" Width="96.0">
+            <Appearance>
+                <Alignment>Left</Alignment>
+            </Appearance>
+            <String>Name Auditions:
+Andi
+Bibou
+Kiki
+Kuki
+Bordel</String>
+            <Formatting>
+                <FormatRange Italic="Yes">0,16</FormatRange>
+            </Formatting>
+        </Note>
+        <Note ID="32" FontSize="19.0" Position="400.0,628.0" Width="67.0">
+            <Appearance>
+                <Alignment>Left</Alignment>
+            </Appearance>
+            <String>bordel!</String>
+        </Note>
+        <Note ID="33" FontSize="12.0" Position="826.590481,627.352342" Width="38.0">
+            <Appearance>
+                <Alignment>Left</Alignment>
+            </Appearance>
+            <String>Login</String>
+            <ConnectedNoteIDs>36</ConnectedNoteIDs>
+        </Note>
+        <Note ID="34" FontSize="12.0" Position="872.590481,566.352342" Width="79.0">
+            <Appearance>
+                <Alignment>Left</Alignment>
+            </Appearance>
+            <String>Deliverables</String>
+            <Formatting>
+                <FormatRange Bold="Yes">0,12</FormatRange>
+            </Formatting>
+        </Note>
+        <Note ID="35" FontSize="12.0" Position="925.590481,625.352342" Width="87.0">
+            <Appearance>
+                <Alignment>Left</Alignment>
+            </Appearance>
+            <String>Create a Login</String>
+            <ConnectedNoteIDs>36</ConnectedNoteIDs>
+        </Note>
+        <Note ID="36" FontSize="12.0" Position="874.590481,690.352342" Width="34.0">
+            <Appearance>
+                <Alignment>Left</Alignment>
+            </Appearance>
+            <String>View</String>
+            <ConnectedNoteIDs>33, 35</ConnectedNoteIDs>
+        </Note>
+        <Note ID="37" FontSize="12.0" Position="795.352295,794.608643" Width="45.0">
+            <Appearance>
+                <Alignment>Left</Alignment>
+            </Appearance>
+            <String>Events</String>
+            <ConnectedNoteIDs>38</ConnectedNoteIDs>
+        </Note>
+        <Note ID="38" FontSize="12.0" Position="783.352295,848.608643" Width="39.0">
+            <Appearance>
+                <Alignment>Left</Alignment>
+            </Appearance>
+            <String>Event</String>
+            <ConnectedNoteIDs>37</ConnectedNoteIDs>
+        </Note>
+        <Note ID="39" FontSize="12.0" Position="867.590481,735.352342" Width="49.0">
+            <Appearance>
+                <Alignment>Left</Alignment>
+            </Appearance>
+            <String>Venues</String>
+            <ConnectedNoteIDs>41-42</ConnectedNoteIDs>
+        </Note>
+        <Note ID="40" FontSize="12.0" Position="967.590481,737.352342" Width="40.0">
+            <Appearance>
+                <Alignment>Left</Alignment>
+            </Appearance>
+            <String>Users</String>
+        </Note>
+        <Note ID="41" FontSize="12.0" Position="898.590481,788.352342" Width="43.0">
+            <Appearance>
+                <Alignment>Left</Alignment>
+            </Appearance>
+            <String>Venue</String>
+            <ConnectedNoteIDs>39</ConnectedNoteIDs>
+        </Note>
+        <Note ID="42" FontSize="12.0" Position="830.590481,792.352342" Width="48.0">
+            <Appearance>
+                <Alignment>Left</Alignment>
+            </Appearance>
+            <String>Review</String>
+            <ConnectedNoteIDs>39</ConnectedNoteIDs>
+        </Note>
+        <Note ID="45" FontSize="12.0" Position="200.242548,774.216702" Width="104.0">
+            <Appearance>
+                <Alignment>Left</Alignment>
+            </Appearance>
+            <String>Connoiseur (host)</String>
+            <ConnectedNoteIDs>10, 54</ConnectedNoteIDs>
+        </Note>
+        <Note ID="49" FontSize="12.0" Position="616.619633,653.06935" Width="55.0">
+            <Appearance>
+                <Alignment>Left</Alignment>
+            </Appearance>
+            <String>- Review</String>
+            <ConnectedNoteIDs>18</ConnectedNoteIDs>
+            <Formatting>
+                <FormatRange Underline="Yes">0,8</FormatRange>
+            </Formatting>
+        </Note>
+        <Note ID="50" FontSize="12.0" Position="316.700284,805.292832" Width="100.0">
+            <Appearance>
+                <Alignment>Left</Alignment>
+            </Appearance>
+            <String>follower/following</String>
+            <ConnectedNoteIDs>8, 51-52</ConnectedNoteIDs>
+        </Note>
+        <Note ID="51" FontSize="12.0" Position="285.242548,872.216702" Width="57.0">
+            <Appearance>
+                <Alignment>Left</Alignment>
+            </Appearance>
+            <String>Attendee</String>
+            <ConnectedNoteIDs>50</ConnectedNoteIDs>
+        </Note>
+        <Note ID="52" FontSize="12.0" Position="267.242548,820.216702" Width="33.0">
+            <Appearance>
+                <Alignment>Left</Alignment>
+            </Appearance>
+            <String>Host</String>
+            <ConnectedNoteIDs>50</ConnectedNoteIDs>
+        </Note>
+        <Note ID="53" FontSize="12.0" Position="276.242548,721.216702" Width="35.0">
+            <Appearance>
+                <Alignment>Left</Alignment>
+            </Appearance>
+            <String>- text</String>
+            <ConnectedNoteIDs>20</ConnectedNoteIDs>
+            <Formatting>
+                <FormatRange Underline="Yes">0,6</FormatRange>
+            </Formatting>
+        </Note>
+        <Note ID="54" FontSize="12.0" Position="149.242548,862.216702" Width="97.0">
+            <Appearance>
+                <Alignment>Left</Alignment>
+            </Appearance>
+            <String>belongs_to  , :as</String>
+            <ConnectedNoteIDs>45</ConnectedNoteIDs>
+        </Note>
+        <Note ID="55" FontSize="12.0" Position="876.241604,276.051073" Width="49.0">
+            <Appearance>
+                <Alignment>Left</Alignment>
+            </Appearance>
+            <String>1. Host</String>
+            <ConnectedNoteIDs>62</ConnectedNoteIDs>
+            <Formatting>
+                <FormatRange Bold="Yes">0,7</FormatRange>
+            </Formatting>
+        </Note>
+        <Note ID="56" FontSize="12.0" Position="877.241604,315.051073" Width="55.0">
+            <Appearance>
+                <Alignment>Left</Alignment>
+            </Appearance>
+            <String>2. Event</String>
+            <ConnectedNoteIDs>62</ConnectedNoteIDs>
+            <Formatting>
+                <FormatRange Bold="Yes">0,8</FormatRange>
+            </Formatting>
+        </Note>
+        <Note ID="57" FontSize="12.0" Position="882.241604,360.051073" Width="77.0">
+            <Appearance>
+                <Alignment>Left</Alignment>
+            </Appearance>
+            <String>3. Comment</String>
+            <ConnectedNoteIDs>62</ConnectedNoteIDs>
+            <Formatting>
+                <FormatRange Bold="Yes">0,10</FormatRange>
+            </Formatting>
+        </Note>
+        <Note ID="58" FontSize="12.0" Position="878.241604,398.051073" Width="75.0">
+            <Appearance>
+                <Alignment>Left</Alignment>
+            </Appearance>
+            <String>4. Attendees</String>
+        </Note>
+        <Note ID="59" FontSize="12.0" Position="879.241604,442.051073" Width="62.0">
+            <Appearance>
+                <Alignment>Left</Alignment>
+            </Appearance>
+            <String>5. Venues</String>
+        </Note>
+        <Note ID="60" FontSize="12.0" Position="878.241604,485.051073" Width="67.0">
+            <Appearance>
+                <Alignment>Left</Alignment>
+            </Appearance>
+            <String>6. Reviews</String>
+        </Note>
+        <Note ID="61" FontSize="12.0" Position="858.241604,247.051073" Width="106.0">
+            <Appearance>
+                <Alignment>Left</Alignment>
+            </Appearance>
+            <String>MVP to Full Suite</String>
+            <Formatting>
+                <FormatRange Bold="Yes">0,17</FormatRange>
+            </Formatting>
+        </Note>
+        <Note ID="62" FontSize="12.0" Position="974.241604,309.051073" Width="151.0">
+            <Appearance>
+                <Alignment>Left</Alignment>
+            </Appearance>
+            <String>MVP: Wednesday Morning</String>
+            <ConnectedNoteIDs>55-57</ConnectedNoteIDs>
+        </Note>
+        <Note ID="63" FontSize="12.0" Position="1279.730648,126.762916" Width="57.0">
+            <Appearance>
+                <Alignment>Left</Alignment>
+            </Appearance>
+            <String>Timeline</String>
+            <Formatting>
+                <FormatRange Bold="Yes">0,8</FormatRange>
+            </Formatting>
+        </Note>
+        <Note ID="64" FontSize="19.006356" Position="896.702393,56.42749" Width="75.0">
+            <Appearance>
+                <Alignment>Left</Alignment>
+            </Appearance>
+            <String>Bordel!</String>
+            <Formatting>
+                <FormatRange Bold="Yes" Italic="Yes">0,7</FormatRange>
+            </Formatting>
+        </Note>
+        <Note ID="66" FontSize="12.0" Position="1132.653208,647.723948" Width="87.0">
+            <Appearance>
+                <Alignment>Left</Alignment>
+            </Appearance>
+            <String>Final Product</String>
+            <ConnectedNoteIDs>70</ConnectedNoteIDs>
+            <Formatting>
+                <FormatRange Bold="Yes" Underline="Yes">0,13</FormatRange>
+            </Formatting>
+        </Note>
+        <Note ID="67" FontSize="12.0" Position="1178.787254,382.400072" Width="35.0">
+            <Appearance>
+                <Alignment>Left</Alignment>
+            </Appearance>
+            <String>MVP</String>
+            <ConnectedNoteIDs>76</ConnectedNoteIDs>
+            <Formatting>
+                <FormatRange Bold="Yes" Underline="Yes">0,3</FormatRange>
+            </Formatting>
+        </Note>
+        <Note ID="68" FontSize="19.006356" Position="769.0,94.0" Width="381.0">
+            <Appearance>
+                <Alignment>Left</Alignment>
+            </Appearance>
+            <String>An app for adventurers adventuring together</String>
+        </Note>
+        <Note ID="69" FontSize="12.0" Position="1265.901975,453.239436" Width="105.0">
+            <Appearance>
+                <Alignment>Left</Alignment>
+            </Appearance>
+            <String>Wednesday 10am</String>
+        </Note>
+        <Note ID="70" FontSize="12.0" Position="1272.730648,644.826881" Width="85.0">
+            <Appearance>
+                <Alignment>Left</Alignment>
+            </Appearance>
+            <String>Thursday 6pm</String>
+            <ConnectedNoteIDs>66</ConnectedNoteIDs>
+        </Note>
+        <Note ID="71" FontSize="12.0" Position="1452.288997,198.96067" Width="113.0">
+            <Appearance>
+                <Alignment>Left</Alignment>
+            </Appearance>
+            <String>Conceive of Project</String>
+            <ConnectedNoteIDs>72, 74</ConnectedNoteIDs>
+            <PointsToNoteIDs>72</PointsToNoteIDs>
+        </Note>
+        <Note ID="72" FontSize="12.0" Position="1482.016421,244.199825" Width="76.0">
+            <Appearance>
+                <Alignment>Left</Alignment>
+            </Appearance>
+            <String>Pitch Project</String>
+            <ConnectedNoteIDs>71, 73, 88-89</ConnectedNoteIDs>
+            <PointsToNoteIDs>88-89</PointsToNoteIDs>
+        </Note>
+        <Note ID="73" FontSize="12.0" Position="1269.518203,252.491492" Width="78.0">
+            <Appearance>
+                <Alignment>Left</Alignment>
+            </Appearance>
+            <String>Monday 3pm</String>
+            <ConnectedNoteIDs>72</ConnectedNoteIDs>
+        </Note>
+        <Note ID="74" FontSize="12.0" Position="1424.46722,152.502418" Width="151.0">
+            <Appearance>
+                <Alignment>Left</Alignment>
+            </Appearance>
+            <String>Pass Mod Code Challenge</String>
+            <ConnectedNoteIDs>71</ConnectedNoteIDs>
+            <PointsToNoteIDs>71</PointsToNoteIDs>
+        </Note>
+        <Note ID="75" FontSize="12.0" Position="1262.461322,321.603745" Width="86.0">
+            <Appearance>
+                <Alignment>Left</Alignment>
+            </Appearance>
+            <String>Tuesday Noon</String>
+            <ConnectedNoteIDs>96</ConnectedNoteIDs>
+        </Note>
+        <Note ID="76" FontSize="12.0" Position="1267.172808,364.73834" Width="81.0">
+            <Appearance>
+                <Alignment>Left</Alignment>
+            </Appearance>
+            <String>
+Tuesday 6pm</String>
+            <ConnectedNoteIDs>67, 80</ConnectedNoteIDs>
+        </Note>
+        <Note ID="77" FontSize="12.0" Position="1275.730648,516.680911" Width="98.0">
+            <Appearance>
+                <Alignment>Left</Alignment>
+            </Appearance>
+            <String>Wednesday 4pm</String>
+            <ConnectedNoteIDs>82</ConnectedNoteIDs>
+        </Note>
+        <Note ID="78" FontSize="12.0" Position="1272.262035,585.089217" Width="92.0">
+            <Appearance>
+                <Alignment>Left</Alignment>
+            </Appearance>
+            <String>Thursday 10am</String>
+            <ConnectedNoteIDs>83</ConnectedNoteIDs>
+        </Note>
+        <Note ID="79" FontSize="12.0" Position="1281.730648,703.826881" Width="74.0">
+            <Appearance>
+                <Alignment>Left</Alignment>
+            </Appearance>
+            <String>Friday 11am</String>
+        </Note>
+        <Note ID="80" FontSize="12.0" Position="1470.730648,376.826881" Width="298.0">
+            <Appearance>
+                <Alignment>Left</Alignment>
+            </Appearance>
+            <String>Database, H-E-C-S: Models, Controllers, CRUD Views</String>
+            <ConnectedNoteIDs>76</ConnectedNoteIDs>
+        </Note>
+        <Note ID="82" FontSize="12.0" Position="1449.019025,493.60539" Width="110.0">
+            <Appearance>
+                <Alignment>Left</Alignment>
+            </Appearance>
+            <String>Add Hosts &amp; Attendees: DB, Models &amp; feature functionality</String>
+            <ConnectedNoteIDs>77, 87</ConnectedNoteIDs>
+        </Note>
+        <Note ID="83" FontSize="12.0" Position="1446.812336,580.668849" Width="88.0">
+            <Appearance>
+                <Alignment>Left</Alignment>
+            </Appearance>
+            <String>Improve Front End Design</String>
+            <ConnectedNoteIDs>78, 84</ConnectedNoteIDs>
+        </Note>
+        <Note ID="84" FontSize="12.0" Position="1591.935555,587.315916" Width="153.0">
+            <Appearance>
+                <Alignment>Left</Alignment>
+            </Appearance>
+            <String>More Features (algorithms)</String>
+            <ConnectedNoteIDs>83</ConnectedNoteIDs>
+        </Note>
+        <Note ID="86" FontSize="12.0" Position="485.32288,637.636473" Width="48.0">
+            <Appearance>
+                <Alignment>Left</Alignment>
+            </Appearance>
+            <String>Review</String>
+            <ConnectedNoteIDs>18</ConnectedNoteIDs>
+        </Note>
+        <Note ID="87" FontSize="12.0" Position="1594.730648,511.826881" Width="74.0">
+            <Appearance>
+                <Alignment>Left</Alignment>
+            </Appearance>
+            <String>Add Revues</String>
+            <ConnectedNoteIDs>82</ConnectedNoteIDs>
+        </Note>
+        <Note ID="88" FontSize="12.0" Position="1390.457073,287.206404" Width="200.0">
+            <Appearance>
+                <Alignment>Left</Alignment>
+            </Appearance>
+            <String>Setup project, connect to git, build databases &amp; models</String>
+            <ConnectedNoteIDs>72</ConnectedNoteIDs>
+        </Note>
+        <Note ID="89" FontSize="12.0" Position="1644.730648,283.826881" Width="109.0">
+            <Appearance>
+                <Alignment>Left</Alignment>
+            </Appearance>
+            <String>Sketch User Views</String>
+            <ConnectedNoteIDs>72</ConnectedNoteIDs>
+        </Note>
+        <Note ID="90" FontSize="12.0" Position="555.0,773.0" Width="45.0">
+            <Appearance>
+                <Alignment>Left</Alignment>
+            </Appearance>
+            <String>- Muse</String>
+            <ConnectedNoteIDs>8</ConnectedNoteIDs>
+            <Formatting>
+                <FormatRange Underline="Yes">0,6</FormatRange>
+            </Formatting>
+        </Note>
+        <Note ID="91" FontSize="12.0" Position="627.0,552.0" Width="40.0">
+            <Appearance>
+                <Alignment>Left</Alignment>
+            </Appearance>
+            <String>- URL</String>
+            <ConnectedNoteIDs>9</ConnectedNoteIDs>
+            <Formatting>
+                <FormatRange Underline="Yes">0,5</FormatRange>
+            </Formatting>
+        </Note>
+        <Note ID="92" FontSize="12.0" Position="561.0,843.0" Width="66.0">
+            <Appearance>
+                <Alignment>Left</Alignment>
+            </Appearance>
+            <String>-username</String>
+            <ConnectedNoteIDs>8</ConnectedNoteIDs>
+            <Formatting>
+                <FormatRange Underline="Yes">0,9</FormatRange>
+            </Formatting>
+        </Note>
+        <Note ID="93" FontSize="12.0" Position="433.252732,705.412915" Width="34.0">
+            <Appearance>
+                <Alignment>Left</Alignment>
+            </Appearance>
+            <String>User</String>
+            <ConnectedNoteIDs>8</ConnectedNoteIDs>
+        </Note>
+        <Note ID="94" FontSize="12.0" Position="310.0,599.0" Width="39.0">
+            <Appearance>
+                <Alignment>Left</Alignment>
+            </Appearance>
+            <String>Event</String>
+            <ConnectedNoteIDs>10</ConnectedNoteIDs>
+        </Note>
+        <Note ID="95" FontSize="12.0" Position="503.453671,554.0" Width="43.0">
+            <Appearance>
+                <Alignment>Left</Alignment>
+            </Appearance>
+            <String>Venue</String>
+            <ConnectedNoteIDs>9</ConnectedNoteIDs>
+        </Note>
+        <Note ID="96" FontSize="12.0" Position="1480.0,332.0" Width="53.0">
+            <Appearance>
+                <Alignment>Left</Alignment>
+            </Appearance>
+            <String>Yelp API</String>
+            <ConnectedNoteIDs>75, 97</ConnectedNoteIDs>
+        </Note>
+        <Note ID="97" FontSize="12.0" Position="1563.39598,332.501141" Width="85.0">
+            <Appearance>
+                <Alignment>Left</Alignment>
+            </Appearance>
+            <String>Faker &amp; Users</String>
+            <ConnectedNoteIDs>96</ConnectedNoteIDs>
+        </Note>
+    </Notes>
+    <BackgroundShapes></BackgroundShapes>
+    <AutoFit>2-3, 6, 8-9, 11-15, 17-18, 20-22, 25-28, 30, 32-42, 45, 49-64, 67-80, 84, 86-87, 89-97</AutoFit>
+    <NoteStyles>
+        <Style Name="Bubble (Blue)" ID="9E12C108-5999-4D80-944D-521025ECDED4" AffectFontStyle="No" AffectAlignment="No" AffectTextColor="No" AffectNoteBody="Yes" AffectFade="No">
+            <BorderThickness>1</BorderThickness>
+            <BorderColor>0.561855 0.71062 0.779401</BorderColor>
+            <FillColor>0.702319 0.888276 0.974252</FillColor>
+        </Style>
+        <Style Name="Bubble (Green)" ID="56CFC9B6-1FDF-4B70-8132-5040DA4B501F" AffectFontStyle="No" AffectAlignment="No" AffectTextColor="No" AffectNoteBody="Yes" AffectFade="No">
+            <BorderThickness>1</BorderThickness>
+            <BorderColor>0.572684 0.758969 0.558154</BorderColor>
+            <FillColor>0.715855 0.948712 0.697692</FillColor>
+        </Style>
+        <Style Name="Bubble (Pink)" ID="E167E957-6985-4367-97EE-DA9CAAF747BD" AffectFontStyle="No" AffectAlignment="No" AffectTextColor="No" AffectNoteBody="Yes" AffectFade="No">
+            <BorderThickness>1</BorderThickness>
+            <BorderColor>0.794796 0.560965 0.58607</BorderColor>
+            <FillColor>0.957566 0.766747 0.999616</FillColor>
+        </Style>
+        <Style Name="Bubble (Red)" ID="1BE3265F-5EC8-4FA7-9748-2D11D8397DD7" AffectFontStyle="No" AffectAlignment="No" AffectTextColor="No" AffectNoteBody="Yes" AffectFade="No">
+            <BorderThickness>1</BorderThickness>
+            <BorderColor>0.794796 0.560965 0.58607</BorderColor>
+            <FillColor>0.993495 0.701207 0.732587</FillColor>
+        </Style>
+        <Style Name="Bubble (Yellow)" ID="678F3DF5-BCC1-4574-8DD3-24715E2E0AD5" AffectFontStyle="No" AffectAlignment="No" AffectTextColor="No" AffectNoteBody="Yes" AffectFade="No">
+            <BorderThickness>1</BorderThickness>
+            <BorderColor>0.798177 0.714184 0.522055</BorderColor>
+            <FillColor>0.997722 0.89273 0.652569</FillColor>
+        </Style>
+        <Style Name="Red Text" ID="78C3A881-123C-4224-A979-794B68E8B897" AffectFontStyle="No" AffectAlignment="No" AffectTextColor="Yes" AffectNoteBody="No" AffectFade="No">
+            <TextColor>0.985948 0.0 0.026951</TextColor>
+        </Style>
+        <Style Name="Title Text" ID="792125AD-D622-41C5-B926-D2BC43BC38E6" AffectFontStyle="Yes" AffectAlignment="Yes" AffectTextColor="No" AffectNoteBody="No" AffectFade="No">
+            <FontSize>28.0</FontSize>
+            <IsBold>Yes</IsBold>
+        </Style>
+    </NoteStyles>
+    <UISettings>
+        <BackgroundColor>0.999767 0.98837 0.949907</BackgroundColor>
+        <DefaultFont>Helvetica</DefaultFont>
+        <DefaultTextColor>0.0 0.0 0.0</DefaultTextColor>
+    </UISettings>
+    <PrintSettings PaperSize="612.0,792.0" LeftMargin="72.0" RightMargin="72.0" TopMargin="90.0" BottomMargin="90.0" PaperType="na-letter" Orientation="Portrait" HorizontalPagination="Clip" VerticalPagination="Auto" ScaleFactor="1.0" HorizontallyCentered="Yes" VerticallyCentered="Yes" Collates="Yes" PagesAcross="1" PagesDown="1"></PrintSettings>
+</ScappleDocument>
