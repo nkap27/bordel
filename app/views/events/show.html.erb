@@ -1,0 +1,21 @@
+<h1><%= @event.title %></h1>
+
+<p>Venue: <%= @event.venue.name %></p>
+<p>Time: <%= @event.time.strftime("%m/%d/%Y at %I:%M%p") %></p>
+
+<h3> Venue Info </h3>
+
+<%= @event.venue.category%>,  <%= @event.venue.address%>,  <%= link_to 'Website', @event.venue.url %>
+
+<h3>Casse-Cou Attending</h3>
+
+<% @event.users.each do |user| %>
+  <p><%= link_to user.name, user_path(user) %></p>
+<% end %>
+
+<h3>Comments</h3>
+
+<% @event.comments.each do |comment| %>
+  <p><%= comment.text %></p>
+  <p>Created at: <%= comment.created_at.strftime("%m/%d/%Y at %I:%M%p") %></p>
+<% end %>
