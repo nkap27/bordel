@@ -1,0 +1,13 @@
+<h1><%= @user.name %></h1>
+<% if flash[:notice] %>
+  <p><%= flash[:notice] %></p>
+<% end %>
+<h3><%= @user.username %></h3>
+<h3><%= @user.muse %></h3>
+<p><%= @user.bio %></p>
+<p><%= button_to "Edit Casse-cou", edit_user_path(@user) %></p>
+<p><%= button_to "Delete", user_path(@user), method: :delete %></p>
+<!-- List of events hosting?
+List of events attending
+Link to edit profile
+Small form for create event-->
