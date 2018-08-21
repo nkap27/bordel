@@ -10,7 +10,7 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
-ActiveRecord::Schema.define(version: 2018_08_20_204017) do
+ActiveRecord::Schema.define(version: 2018_08_21_143555) do
 
   create_table "comments", force: :cascade do |t|
     t.text "text"
@@ -24,7 +24,6 @@ ActiveRecord::Schema.define(version: 2018_08_20_204017) do
 
   create_table "events", force: :cascade do |t|
     t.string "title"
-    t.string "category"
     t.integer "capacity"
     t.datetime "time"
     t.text "description"
