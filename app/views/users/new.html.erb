@@ -1,2 +1,7 @@
 <h1>Create a Casse-Cou (User)</h1>
+<% if @user.errors.any? %>
+  <% @user.errors.full_messages.each do |msg| %>
+    <p><%= msg %></p>
+  <% end %>
+<% end %>
 <%= render partial: "form"  %>
