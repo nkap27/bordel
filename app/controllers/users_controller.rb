@@ -1,8 +1,13 @@
 class UsersController < ApplicationController
+  skip_before_action :authorized, only: [:new, :create, :show]
   before_action :set_user, only: [:show, :edit, :update, :destroy]
 
   def index
     @users = User.all
+  end
+
+  def profile
+    render :show
   end
 
   def new
@@ -11,7 +16,9 @@ class UsersController < ApplicationController
 
   def create
     @user = User.create(user_params)
-    if @user.save
+    if @user.valid?
+      flash[:notice] = 'Signup successful! Bienvenue, #{@user.name}.'
+      session[:user_id] = @user.id
       redirect_to(@user)
     else
       render :new
@@ -43,7 +50,7 @@ class UsersController < ApplicationController
     end
 
     def user_params
-      params.require(:user).permit(:username, :name, :muse, :bio)
+      params.require(:user).permit(:username, :name, :muse, :bio, :password)
     end
 
 end

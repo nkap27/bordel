@@ -42,7 +42,7 @@ venues.each do |venue|
 end
 
 5.times do
-  User.create(name: Faker::HarryPotter.character, username: Faker::HarryPotter.unique.spell, bio: Faker::HarryPotter.quote, muse: Faker::HarryPotter.house)
+  User.create(name: Faker::HarryPotter.character, username: Faker::HarryPotter.unique.spell, bio: Faker::HarryPotter.quote, muse: Faker::HarryPotter.house, password: Faker::HarryPotter.character)
 end
 
 events = [
