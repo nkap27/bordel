@@ -58,12 +58,12 @@
             </Appearance>
             <String>1. Filter by friend</String>
         </Note>
-        <Note ID="8" FontSize="12.0" Position="441.0,777.0" Width="69.0">
+        <Note ID="8" FontSize="12.0" Position="202.657522,914.133721" Width="69.0">
             <Appearance>
                 <Alignment>Left</Alignment>
             </Appearance>
             <String>Casse-cou</String>
-            <ConnectedNoteIDs>18, 20-21, 27-28, 50, 90, 92-93</ConnectedNoteIDs>
+            <ConnectedNoteIDs>20-21, 27-28, 50, 90, 92-93</ConnectedNoteIDs>
             <PointsToNoteIDs>18, 20</PointsToNoteIDs>
             <Formatting>
                 <FormatRange Bold="Yes">0,9</FormatRange>
@@ -74,13 +74,13 @@
                 <Alignment>Left</Alignment>
             </Appearance>
             <String>Salle</String>
-            <ConnectedNoteIDs>10, 13-15, 18, 91, 95</ConnectedNoteIDs>
+            <ConnectedNoteIDs>10, 13-15, 91, 95</ConnectedNoteIDs>
             <PointsToNoteIDs>10, 18</PointsToNoteIDs>
             <Formatting>
                 <FormatRange Bold="Yes">0,5</FormatRange>
             </Formatting>
         </Note>
-        <Note ID="10" FontSize="12.0" Position="228.0,589.0" Width="52.0">
+        <Note ID="10" FontSize="12.0" Position="439.391715,644.845749" Width="52.0">
             <Appearance>
                 <Alignment>Left</Alignment>
             </Appearance>
@@ -91,7 +91,7 @@
                 <FormatRange Bold="Yes">0,6</FormatRange>
             </Formatting>
         </Note>
-        <Note ID="11" FontSize="12.0" Position="145.0,652.0" Width="42.0">
+        <Note ID="11" FontSize="12.0" Position="438.948765,582.736555" Width="42.0">
             <Appearance>
                 <Alignment>Left</Alignment>
             </Appearance>
@@ -101,7 +101,7 @@
                 <FormatRange Underline="Yes">0,6</FormatRange>
             </Formatting>
         </Note>
-        <Note ID="12" FontSize="12.0" Position="159.0,555.0" Width="38.0">
+        <Note ID="12" FontSize="12.0" Position="370.391715,610.845749" Width="38.0">
             <Appearance>
                 <Alignment>Left</Alignment>
             </Appearance>
@@ -141,7 +141,7 @@
                 <FormatRange Underline="Yes">0,10</FormatRange>
             </Formatting>
         </Note>
-        <Note ID="17" FontSize="12.0" Position="107.0,603.0" Width="76.0">
+        <Note ID="17" FontSize="12.0" Position="318.391715,658.845749" Width="76.0">
             <Appearance>
                 <Alignment>Left</Alignment>
             </Appearance>
@@ -151,17 +151,7 @@
                 <FormatRange Underline="Yes">0,13</FormatRange>
             </Formatting>
         </Note>
-        <Note ID="18" FontSize="12.0" Position="556.0,637.0" Width="45.0">
-            <Appearance>
-                <Alignment>Left</Alignment>
-            </Appearance>
-            <String>Revue</String>
-            <ConnectedNoteIDs>8-9, 25, 49, 86</ConnectedNoteIDs>
-            <Formatting>
-                <FormatRange Bold="Yes" Italic="Yes">0,5</FormatRange>
-            </Formatting>
-        </Note>
-        <Note ID="20" FontSize="12.0" Position="315.0,688.0" Width="64.0">
+        <Note ID="20" FontSize="12.0" Position="233.650073,772.515807" Width="64.0">
             <Appearance>
                 <Alignment>Left</Alignment>
             </Appearance>
@@ -171,7 +161,7 @@
                 <FormatRange Bold="Yes">0,7</FormatRange>
             </Formatting>
         </Note>
-        <Note ID="21" FontSize="12.0" Position="496.0,829.0" Width="48.0">
+        <Note ID="21" FontSize="12.0" Position="257.657522,966.133721" Width="48.0">
             <Appearance>
                 <Alignment>Left</Alignment>
             </Appearance>
@@ -181,7 +171,7 @@
                 <FormatRange Underline="Yes">0,6</FormatRange>
             </Formatting>
         </Note>
-        <Note ID="22" FontSize="12.0" Position="78.0,564.0" Width="63.0">
+        <Note ID="22" FontSize="12.0" Position="289.391715,619.845749" Width="63.0">
             <Appearance>
                 <Alignment>Left</Alignment>
             </Appearance>
@@ -191,17 +181,7 @@
                 <FormatRange Underline="Yes">0,10</FormatRange>
             </Formatting>
         </Note>
-        <Note ID="25" FontSize="12.0" Position="618.0,607.0" Width="51.0">
-            <Appearance>
-                <Alignment>Left</Alignment>
-            </Appearance>
-            <String>- Rating</String>
-            <ConnectedNoteIDs>18</ConnectedNoteIDs>
-            <Formatting>
-                <FormatRange Underline="Yes">0,8</FormatRange>
-            </Formatting>
-        </Note>
-        <Note ID="27" FontSize="12.0" Position="427.0,829.0" Width="53.0">
+        <Note ID="27" FontSize="12.0" Position="188.657522,966.133721" Width="53.0">
             <Appearance>
                 <Alignment>Left</Alignment>
             </Appearance>
@@ -211,7 +191,7 @@
                 <FormatRange Italic="Yes">0,9</FormatRange>
             </Formatting>
         </Note>
-        <Note ID="28" FontSize="12.0" Position="537.0,799.0" Width="33.0">
+        <Note ID="28" FontSize="12.0" Position="298.657522,936.133721" Width="33.0">
             <Appearance>
                 <Alignment>Left</Alignment>
             </Appearance>
@@ -235,7 +215,7 @@ Bordel</String>
                 <FormatRange Italic="Yes">0,16</FormatRange>
             </Formatting>
         </Note>
-        <Note ID="32" FontSize="19.0" Position="400.0,628.0" Width="67.0">
+        <Note ID="32" FontSize="19.0" Position="311.132812,511.321221" Width="67.0">
             <Appearance>
                 <Alignment>Left</Alignment>
             </Appearance>
@@ -273,45 +253,35 @@ Bordel</String>
             <String>View</String>
             <ConnectedNoteIDs>33, 107-108, 112</ConnectedNoteIDs>
         </Note>
-        <Note ID="45" FontSize="12.0" Position="200.0,774.0" Width="104.0">
+        <Note ID="45" FontSize="12.0" Position="421.12718,711.270167" Width="104.0">
             <Appearance>
                 <Alignment>Left</Alignment>
             </Appearance>
             <String>Connoiseur (host)</String>
             <ConnectedNoteIDs>10, 54</ConnectedNoteIDs>
         </Note>
-        <Note ID="49" FontSize="12.0" Position="617.0,653.0" Width="55.0">
-            <Appearance>
-                <Alignment>Left</Alignment>
-            </Appearance>
-            <String>- Review</String>
-            <ConnectedNoteIDs>18</ConnectedNoteIDs>
-            <Formatting>
-                <FormatRange Underline="Yes">0,8</FormatRange>
-            </Formatting>
-        </Note>
-        <Note ID="50" FontSize="12.0" Position="317.0,805.0" Width="100.0">
+        <Note ID="50" FontSize="12.0" Position="78.657522,942.133721" Width="100.0">
             <Appearance>
                 <Alignment>Left</Alignment>
             </Appearance>
             <String>follower/following</String>
             <ConnectedNoteIDs>8, 51-52</ConnectedNoteIDs>
         </Note>
-        <Note ID="51" FontSize="12.0" Position="285.0,872.0" Width="57.0">
+        <Note ID="51" FontSize="12.0" Position="46.657522,1009.133721" Width="57.0">
             <Appearance>
                 <Alignment>Left</Alignment>
             </Appearance>
             <String>Attendee</String>
             <ConnectedNoteIDs>50</ConnectedNoteIDs>
         </Note>
-        <Note ID="52" FontSize="12.0" Position="267.0,820.0" Width="33.0">
+        <Note ID="52" FontSize="12.0" Position="28.657522,957.133721" Width="33.0">
             <Appearance>
                 <Alignment>Left</Alignment>
             </Appearance>
             <String>Host</String>
             <ConnectedNoteIDs>50</ConnectedNoteIDs>
         </Note>
-        <Note ID="53" FontSize="12.0" Position="276.0,721.0" Width="35.0">
+        <Note ID="53" FontSize="12.0" Position="194.650073,805.515807" Width="35.0">
             <Appearance>
                 <Alignment>Left</Alignment>
             </Appearance>
@@ -321,7 +291,7 @@ Bordel</String>
                 <FormatRange Underline="Yes">0,6</FormatRange>
             </Formatting>
         </Note>
-        <Note ID="54" FontSize="12.0" Position="149.0,862.0" Width="97.0">
+        <Note ID="54" FontSize="12.0" Position="370.12718,799.270167" Width="97.0">
             <Appearance>
                 <Alignment>Left</Alignment>
             </Appearance>
@@ -553,13 +523,6 @@ Tuesday 5pm</String>
             <String>More Features (algorithms)</String>
             <ConnectedNoteIDs>83</ConnectedNoteIDs>
         </Note>
-        <Note ID="86" FontSize="12.0" Position="485.0,638.0" Width="48.0">
-            <Appearance>
-                <Alignment>Left</Alignment>
-            </Appearance>
-            <String>Review</String>
-            <ConnectedNoteIDs>18</ConnectedNoteIDs>
-        </Note>
         <Note ID="87" FontSize="12.0" Position="1595.0,549.0" Width="74.0">
             <Appearance>
                 <Alignment>Left</Alignment>
@@ -588,7 +551,7 @@ Tuesday 5pm</String>
                 <FormatRange Italic="Yes" Underline="Yes">0,17</FormatRange>
             </Formatting>
         </Note>
-        <Note ID="90" FontSize="12.0" Position="555.0,773.0" Width="45.0">
+        <Note ID="90" FontSize="12.0" Position="316.657522,910.133721" Width="45.0">
             <Appearance>
                 <Alignment>Left</Alignment>
             </Appearance>
@@ -608,7 +571,7 @@ Tuesday 5pm</String>
                 <FormatRange Underline="Yes">0,5</FormatRange>
             </Formatting>
         </Note>
-        <Note ID="92" FontSize="12.0" Position="561.0,843.0" Width="66.0">
+        <Note ID="92" FontSize="12.0" Position="322.657522,980.133721" Width="66.0">
             <Appearance>
                 <Alignment>Left</Alignment>
             </Appearance>
@@ -618,21 +581,21 @@ Tuesday 5pm</String>
                 <FormatRange Underline="Yes">0,9</FormatRange>
             </Formatting>
         </Note>
-        <Note ID="93" FontSize="12.0" Position="433.0,705.0" Width="34.0">
+        <Note ID="93" FontSize="12.0" Position="257.45367,864.537064" Width="34.0">
             <Appearance>
                 <Alignment>Left</Alignment>
             </Appearance>
             <String>User</String>
             <ConnectedNoteIDs>8</ConnectedNoteIDs>
         </Note>
-        <Note ID="94" FontSize="12.0" Position="310.0,599.0" Width="39.0">
+        <Note ID="94" FontSize="12.0" Position="521.391715,654.845749" Width="39.0">
             <Appearance>
                 <Alignment>Left</Alignment>
             </Appearance>
             <String>Event</String>
             <ConnectedNoteIDs>10</ConnectedNoteIDs>
         </Note>
-        <Note ID="95" FontSize="12.0" Position="503.0,554.0" Width="43.0">
+        <Note ID="95" FontSize="12.0" Position="492.094295,500.307231" Width="43.0">
             <Appearance>
                 <Alignment>Left</Alignment>
             </Appearance>
@@ -886,7 +849,7 @@ Reviews?</String>
         </Note>
     </Notes>
     <BackgroundShapes></BackgroundShapes>
-    <AutoFit>2-3, 6, 8-9, 11-15, 17-18, 20-22, 25, 27-28, 30, 32-36, 45, 49-64, 67-80, 84, 86-87, 89-110, 112-117, 119, 121-127</AutoFit>
+    <AutoFit>2-3, 6, 8-9, 11-15, 17, 20-22, 27-28, 30, 32-36, 45, 50-64, 67-80, 84, 87, 89-110, 112-117, 119, 121-127</AutoFit>
     <NoteStyles>
         <Style Name="Bubble (Blue)" ID="9E12C108-5999-4D80-944D-521025ECDED4" AffectFontStyle="No" AffectAlignment="No" AffectTextColor="No" AffectNoteBody="Yes" AffectFade="No">
             <BorderThickness>1</BorderThickness>
