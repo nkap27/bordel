@@ -5,9 +5,6 @@ class VenuesController < ApplicationController
     @venues = Venue.all
   end
 
-  def show
-  end
-
   private
 
     def set_venue

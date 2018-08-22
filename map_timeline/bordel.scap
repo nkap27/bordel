@@ -241,7 +241,7 @@ Bordel</String>
             </Appearance>
             <String>bordel!</String>
         </Note>
-        <Note ID="33" FontSize="12.0" Position="725.684396,994.708195" Width="38.0">
+        <Note ID="33" FontSize="12.0" Position="726.0,995.0" Width="38.0">
             <Appearance>
                 <Alignment>Left</Alignment>
             </Appearance>
@@ -249,7 +249,7 @@ Bordel</String>
             <ConnectedNoteIDs>35-36, 119</ConnectedNoteIDs>
             <PointsToNoteIDs>36</PointsToNoteIDs>
         </Note>
-        <Note ID="34" FontSize="12.0" Position="957.676118,830.867964" Width="79.0">
+        <Note ID="34" FontSize="12.0" Position="958.0,831.0" Width="79.0">
             <Appearance>
                 <Alignment>Left</Alignment>
             </Appearance>
@@ -266,7 +266,7 @@ Bordel</String>
             <ConnectedNoteIDs>33</ConnectedNoteIDs>
             <PointsToNoteIDs>33</PointsToNoteIDs>
         </Note>
-        <Note ID="36" FontSize="12.0" Position="723.003932,1054.055671" Width="34.0">
+        <Note ID="36" FontSize="12.0" Position="723.0,1054.0" Width="34.0">
             <Appearance>
                 <Alignment>Left</Alignment>
             </Appearance>
@@ -420,7 +420,7 @@ Bordel</String>
                 <FormatRange Bold="Yes" Underline="Yes">0,13</FormatRange>
             </Formatting>
         </Note>
-        <Note ID="67" FontSize="12.0" Position="1179.0,373.41653" Width="35.0">
+        <Note ID="67" FontSize="12.0" Position="1179.0,373.0" Width="35.0">
             <Appearance>
                 <Alignment>Left</Alignment>
             </Appearance>
@@ -436,7 +436,7 @@ Bordel</String>
             </Appearance>
             <String>An app for adventurers adventuring together</String>
         </Note>
-        <Note ID="69" FontSize="12.0" Position="1271.671517,457.243201" Width="105.0">
+        <Note ID="69" FontSize="12.0" Position="1272.0,457.0" Width="105.0">
             <Appearance>
                 <Alignment>Left</Alignment>
             </Appearance>
@@ -525,28 +525,28 @@ Tuesday 5pm</String>
             </Appearance>
             <String>Friday 11am</String>
         </Note>
-        <Note ID="80" FontSize="12.0" Position="1422.339227,376.348684" Width="298.0">
+        <Note ID="80" FontSize="12.0" Position="1422.0,376.0" Width="298.0">
             <Appearance>
                 <Alignment>Left</Alignment>
             </Appearance>
             <String>Database, H-E-C-S: Models, Controllers, CRUD Views</String>
             <ConnectedNoteIDs>76</ConnectedNoteIDs>
         </Note>
-        <Note ID="82" FontSize="12.0" Position="1439.430344,531.197281" Width="110.0">
+        <Note ID="82" FontSize="12.0" Position="1439.0,531.0" Width="110.0">
             <Appearance>
                 <Alignment>Left</Alignment>
             </Appearance>
             <String>Add Hosts &amp; Attendees: DB, Models &amp; feature functionality</String>
             <ConnectedNoteIDs>77, 87</ConnectedNoteIDs>
         </Note>
-        <Note ID="83" FontSize="12.0" Position="1446.935234,617.353411" Width="88.0">
+        <Note ID="83" FontSize="12.0" Position="1447.0,617.0" Width="88.0">
             <Appearance>
                 <Alignment>Left</Alignment>
             </Appearance>
             <String>Improve Front End Design</String>
             <ConnectedNoteIDs>78, 84</ConnectedNoteIDs>
         </Note>
-        <Note ID="84" FontSize="12.0" Position="1591.935234,623.353411" Width="153.0">
+        <Note ID="84" FontSize="12.0" Position="1592.0,623.0" Width="153.0">
             <Appearance>
                 <Alignment>Left</Alignment>
             </Appearance>
@@ -560,14 +560,14 @@ Tuesday 5pm</String>
             <String>Review</String>
             <ConnectedNoteIDs>18</ConnectedNoteIDs>
         </Note>
-        <Note ID="87" FontSize="12.0" Position="1594.671709,549.197281" Width="74.0">
+        <Note ID="87" FontSize="12.0" Position="1595.0,549.0" Width="74.0">
             <Appearance>
                 <Alignment>Left</Alignment>
             </Appearance>
             <String>Add Revues</String>
             <ConnectedNoteIDs>82, 124</ConnectedNoteIDs>
         </Note>
-        <Note ID="88" FontSize="12.0" Position="1437.053434,280.778935" Width="200.0">
+        <Note ID="88" FontSize="12.0" Position="1437.0,281.0" Width="200.0">
             <Appearance>
                 <Alignment>Left</Alignment>
             </Appearance>
@@ -578,7 +578,7 @@ Tuesday 5pm</String>
                 <FormatRange Italic="Yes" Underline="Yes">0,55</FormatRange>
             </Formatting>
         </Note>
-        <Note ID="89" FontSize="12.0" Position="1582.0,335.38696" Width="109.0">
+        <Note ID="89" FontSize="12.0" Position="1582.0,335.0" Width="109.0">
             <Appearance>
                 <Alignment>Left</Alignment>
             </Appearance>
@@ -639,7 +639,7 @@ Tuesday 5pm</String>
             <String>Venue</String>
             <ConnectedNoteIDs>9</ConnectedNoteIDs>
         </Note>
-        <Note ID="96" FontSize="12.0" Position="1438.821088,490.871064" Width="53.0">
+        <Note ID="96" FontSize="12.0" Position="1439.0,491.0" Width="53.0">
             <Appearance>
                 <Alignment>Left</Alignment>
             </Appearance>
@@ -649,7 +649,7 @@ Tuesday 5pm</String>
                 <FormatRange Italic="Yes">0,8</FormatRange>
             </Formatting>
         </Note>
-        <Note ID="97" FontSize="12.0" Position="1431.614104,332.578125" Width="85.0">
+        <Note ID="97" FontSize="12.0" Position="1432.0,333.0" Width="85.0">
             <Appearance>
                 <Alignment>Left</Alignment>
             </Appearance>
@@ -659,7 +659,7 @@ Tuesday 5pm</String>
                 <FormatRange Italic="Yes" Underline="Yes">0,13</FormatRange>
             </Formatting>
         </Note>
-        <Note ID="98" FontSize="12.0" Position="577.057016,950.444433" Width="46.0">
+        <Note ID="98" FontSize="12.0" Position="577.0,950.0" Width="46.0">
             <Appearance>
                 <Alignment>Left</Alignment>
             </Appearance>
@@ -668,7 +668,7 @@ Tuesday 5pm</String>
                 <FormatRange Bold="Yes">0,6</FormatRange>
             </Formatting>
         </Note>
-        <Note ID="99" FontSize="12.0" Position="566.181188,1056.219371" Width="56.0">
+        <Note ID="99" FontSize="12.0" Position="566.0,1056.0" Width="56.0">
             <Appearance>
                 <Alignment>Left</Alignment>
             </Appearance>
@@ -678,7 +678,7 @@ Tuesday 5pm</String>
                 <FormatRange Bold="Yes">0,8</FormatRange>
             </Formatting>
         </Note>
-        <Note ID="100" FontSize="12.0" Position="578.071502,1172.530319" Width="49.0">
+        <Note ID="100" FontSize="12.0" Position="578.0,1173.0" Width="49.0">
             <Appearance>
                 <Alignment>Left</Alignment>
             </Appearance>
@@ -687,7 +687,7 @@ Tuesday 5pm</String>
                 <FormatRange Bold="Yes">0,6</FormatRange>
             </Formatting>
         </Note>
-        <Note ID="101" FontSize="12.0" Position="480.504553,1051.97858" Width="45.0">
+        <Note ID="101" FontSize="12.0" Position="481.0,1052.0" Width="45.0">
             <Appearance>
                 <Alignment>Left</Alignment>
             </Appearance>
@@ -697,7 +697,7 @@ Tuesday 5pm</String>
                 <FormatRange Bold="Yes">0,6</FormatRange>
             </Formatting>
         </Note>
-        <Note ID="102" FontSize="12.0" Position="746.311569,868.643315" Width="35.0">
+        <Note ID="102" FontSize="12.0" Position="746.0,869.0" Width="35.0">
             <Appearance>
                 <Alignment>Left</Alignment>
             </Appearance>
@@ -706,7 +706,7 @@ Tuesday 5pm</String>
                 <FormatRange Bold="Yes">0,4</FormatRange>
             </Formatting>
         </Note>
-        <Note ID="103" FontSize="12.0" Position="1220.34344,873.11279" Width="48.0">
+        <Note ID="103" FontSize="12.0" Position="1220.0,873.0" Width="48.0">
             <Appearance>
                 <Alignment>Left</Alignment>
             </Appearance>
@@ -715,7 +715,7 @@ Tuesday 5pm</String>
                 <FormatRange Bold="Yes">0,6</FormatRange>
             </Formatting>
         </Note>
-        <Note ID="104" FontSize="12.0" Position="1030.626759,878.05743" Width="51.0">
+        <Note ID="104" FontSize="12.0" Position="1031.0,878.0" Width="51.0">
             <Appearance>
                 <Alignment>Left</Alignment>
             </Appearance>
@@ -724,7 +724,7 @@ Tuesday 5pm</String>
                 <FormatRange Bold="Yes">0,6</FormatRange>
             </Formatting>
         </Note>
-        <Note ID="105" FontSize="12.0" Position="1280.453332,934.308568" Width="138.0">
+        <Note ID="105" FontSize="12.0" Position="1280.0,934.0" Width="138.0">
             <Appearance>
                 <Alignment>Left</Alignment>
             </Appearance>
@@ -732,20 +732,20 @@ Tuesday 5pm</String>
             <ConnectedNoteIDs>108, 117</ConnectedNoteIDs>
             <PointsToNoteIDs>108</PointsToNoteIDs>
         </Note>
-        <Note ID="106" FontSize="12.0" Position="1309.105132,1049.042839" Width="68.0">
+        <Note ID="106" FontSize="12.0" Position="1309.0,1049.0" Width="68.0">
             <Appearance>
                 <Alignment>Left</Alignment>
             </Appearance>
             <String>View Event</String>
         </Note>
-        <Note ID="107" FontSize="12.0" Position="646.181188,1077.219371" Width="75.0">
+        <Note ID="107" FontSize="12.0" Position="646.0,1077.0" Width="75.0">
             <Appearance>
                 <Alignment>Left</Alignment>
             </Appearance>
             <String>- List Events</String>
             <ConnectedNoteIDs>36</ConnectedNoteIDs>
         </Note>
-        <Note ID="108" FontSize="12.0" Position="735.674151,1078.352752" Width="155.0">
+        <Note ID="108" FontSize="12.0" Position="736.0,1078.0" Width="155.0">
             <Appearance>
                 <Alignment>Left</Alignment>
             </Appearance>
@@ -753,48 +753,48 @@ Tuesday 5pm</String>
             <ConnectedNoteIDs>36, 105, 109, 114-115, 120</ConnectedNoteIDs>
             <PointsToNoteIDs>109</PointsToNoteIDs>
         </Note>
-        <Note ID="109" FontSize="12.0" Position="1338.643626,1133.59613" Width="76.0">
+        <Note ID="109" FontSize="12.0" Position="1339.0,1134.0" Width="76.0">
             <Appearance>
                 <Alignment>Left</Alignment>
             </Appearance>
             <String>Edit.html.erb</String>
             <ConnectedNoteIDs>108, 110</ConnectedNoteIDs>
         </Note>
-        <Note ID="110" FontSize="12.0" Position="1404.133278,1199.614342" Width="165.0">
+        <Note ID="110" FontSize="12.0" Position="1404.0,1200.0" Width="165.0">
             <Appearance>
                 <Alignment>Left</Alignment>
             </Appearance>
             <String>- Add Comments (UserEvent)</String>
             <ConnectedNoteIDs>109</ConnectedNoteIDs>
         </Note>
-        <Note ID="112" FontSize="12.0" Position="687.04315,1101.395592" Width="50.0">
+        <Note ID="112" FontSize="12.0" Position="687.0,1101.0" Width="50.0">
             <Appearance>
                 <Alignment>Left</Alignment>
             </Appearance>
             <String>- Profile</String>
             <ConnectedNoteIDs>36</ConnectedNoteIDs>
         </Note>
-        <Note ID="113" FontSize="12.0" Position="702.585472,1179.597579" Width="76.0">
+        <Note ID="113" FontSize="12.0" Position="703.0,1180.0" Width="76.0">
             <Appearance>
                 <Alignment>Left</Alignment>
             </Appearance>
             <String>Edit.html.erb</String>
         </Note>
-        <Note ID="114" FontSize="12.0" Position="847.878578,1151.868321" Width="74.0">
+        <Note ID="114" FontSize="12.0" Position="848.0,1152.0" Width="74.0">
             <Appearance>
                 <Alignment>Left</Alignment>
             </Appearance>
             <String>- Add Venue</String>
             <ConnectedNoteIDs>108</ConnectedNoteIDs>
         </Note>
-        <Note ID="115" FontSize="12.0" Position="869.012314,1120.879346" Width="108.0">
+        <Note ID="115" FontSize="12.0" Position="869.0,1121.0" Width="108.0">
             <Appearance>
                 <Alignment>Left</Alignment>
             </Appearance>
             <String>-Title, Venue, Time</String>
             <ConnectedNoteIDs>108</ConnectedNoteIDs>
         </Note>
-        <Note ID="116" FontSize="12.0" Position="1025.575952,1061.948882" Width="79.0">
+        <Note ID="116" FontSize="12.0" Position="1026.0,1062.0" Width="79.0">
             <Appearance>
                 <Alignment>Left</Alignment>
             </Appearance>
@@ -802,7 +802,7 @@ Tuesday 5pm</String>
             <ConnectedNoteIDs>117</ConnectedNoteIDs>
             <PointsToNoteIDs>117</PointsToNoteIDs>
         </Note>
-        <Note ID="117" FontSize="12.0" Position="1097.859789,1021.112583" Width="117.0">
+        <Note ID="117" FontSize="12.0" Position="1098.0,1021.0" Width="117.0">
             <Appearance>
                 <Alignment>Left</Alignment>
             </Appearance>
@@ -810,7 +810,7 @@ Tuesday 5pm</String>
             <ConnectedNoteIDs>105, 116</ConnectedNoteIDs>
             <PointsToNoteIDs>105</PointsToNoteIDs>
         </Note>
-        <Note ID="119" FontSize="12.0" Position="800.22827,989.234789" Width="71.0">
+        <Note ID="119" FontSize="12.0" Position="800.0,989.0" Width="71.0">
             <Appearance>
                 <Alignment>Left</Alignment>
             </Appearance>
@@ -824,7 +824,7 @@ Tuesday 5pm</String>
             <String>-user_id (host)  Event[0].user &lt;&lt; self</String>
             <ConnectedNoteIDs>108</ConnectedNoteIDs>
         </Note>
-        <Note ID="121" FontSize="12.0" Position="1532.5127,488.895118" Width="163.0">
+        <Note ID="121" FontSize="12.0" Position="1533.0,489.0" Width="163.0">
             <Appearance>
                 <Alignment>Left</Alignment>
             </Appearance>
@@ -838,36 +838,55 @@ Tuesday 5pm</String>
             <String>Tuesday 6pm</String>
             <ConnectedNoteIDs>123</ConnectedNoteIDs>
         </Note>
-        <Note ID="123" FontSize="12.0" Position="1439.652755,413.409951" Width="89.0">
+        <Note ID="123" FontSize="12.0" Position="1440.0,413.0" Width="89.0">
             <Appearance>
                 <Alignment>Left</Alignment>
             </Appearance>
             <String>Cookie Lecture</String>
             <ConnectedNoteIDs>122</ConnectedNoteIDs>
         </Note>
-        <Note ID="124" FontSize="12.0" Position="1686.463855,546.836466" Width="91.0">
+        <Note ID="124" FontSize="12.0" Position="1686.0,547.0" Width="91.0">
             <Appearance>
                 <Alignment>Left</Alignment>
             </Appearance>
             <String>Add Comments</String>
             <ConnectedNoteIDs>87</ConnectedNoteIDs>
         </Note>
-        <Note ID="125" FontSize="12.0" Position="1445.143607,455.475191" Width="33.0">
+        <Note ID="125" FontSize="12.0" Position="1445.0,455.0" Width="33.0">
             <Appearance>
                 <Alignment>Left</Alignment>
             </Appearance>
             <String>CSS</String>
             <ConnectedNoteIDs>69</ConnectedNoteIDs>
         </Note>
-        <Note ID="126" FontSize="12.0" Position="1038.125835,1027.167223" Width="38.0">
+        <Note ID="126" FontSize="12.0" Position="1038.0,1027.0" Width="38.0">
             <Appearance>
                 <Alignment>Left</Alignment>
             </Appearance>
             <String>Index</String>
         </Note>
+        <Note ID="127" FontSize="12.0" Position="1596.0,869.0" Width="71.0">
+            <Appearance>
+                <Alignment>Left</Alignment>
+            </Appearance>
+            <String>HomePage</String>
+            <Formatting>
+                <FormatRange Bold="Yes">0,8</FormatRange>
+            </Formatting>
+        </Note>
+        <Note ID="128" FontSize="12.0" Position="1625.0,1048.0" Width="241.0">
+            <Appearance>
+                <Alignment>Left</Alignment>
+            </Appearance>
+            <String>Retrieves Event (upcoming 5) and Venue Data?
+Reviews?</String>
+            <Formatting>
+                <FormatRange Underline="Yes">0,45</FormatRange>
+            </Formatting>
+        </Note>
     </Notes>
     <BackgroundShapes></BackgroundShapes>
-    <AutoFit>2-3, 6, 8-9, 11-15, 17-18, 20-22, 25, 27-28, 30, 32-36, 45, 49-64, 67-80, 84, 86-87, 89-110, 112-117, 119, 121-126</AutoFit>
+    <AutoFit>2-3, 6, 8-9, 11-15, 17-18, 20-22, 25, 27-28, 30, 32-36, 45, 49-64, 67-80, 84, 86-87, 89-110, 112-117, 119, 121-127</AutoFit>
     <NoteStyles>
         <Style Name="Bubble (Blue)" ID="9E12C108-5999-4D80-944D-521025ECDED4" AffectFontStyle="No" AffectAlignment="No" AffectTextColor="No" AffectNoteBody="Yes" AffectFade="No">
             <BorderThickness>1</BorderThickness>
