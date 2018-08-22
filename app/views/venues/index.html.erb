@@ -1,0 +1,7 @@
+<h1>Page de la Salle</h1>
+
+<% @venues.each do |venue| %>
+  <p><%= venue.name%>,  <%= venue.category%>,  <%= venue.address%>,  <%= link_to 'Checkout Venue!', venue_path(venue) %></p>
+<% end %>
+
+<!-- note: stylize show page 'link' to look like a button -->
