@@ -1,8 +1,6 @@
 class User < ApplicationRecord
   has_many :comments
-  has_many :reviews
   has_many :events, through: :comments
-  has_many :venues, through: :reviews
   validates :username, uniqueness: { case_sensitive: false }
   validates :username, length: { within: 5..16 }
   validates :name, length: { within: 5..16 }

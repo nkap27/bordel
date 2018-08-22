@@ -2,8 +2,6 @@ class Event < ApplicationRecord
   has_many :comments
   has_many :users, through: :comments
   belongs_to :venue
+  belongs_to :host, class_name: "User"
 
-  # def add_user(user)
-  #   self.users << user
-  # end
 end

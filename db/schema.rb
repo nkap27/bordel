@@ -10,7 +10,7 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
-ActiveRecord::Schema.define(version: 2018_08_21_143555) do
+ActiveRecord::Schema.define(version: 2018_08_22_192138) do
 
   create_table "comments", force: :cascade do |t|
     t.text "text"
@@ -30,18 +30,8 @@ ActiveRecord::Schema.define(version: 2018_08_21_143555) do
     t.datetime "created_at", null: false
     t.datetime "updated_at", null: false
     t.integer "venue_id"
+    t.integer "host_id"
     t.index ["venue_id"], name: "index_events_on_venue_id"
-  end
-
-  create_table "reviews", force: :cascade do |t|
-    t.integer "rating"
-    t.text "review"
-    t.datetime "created_at", null: false
-    t.datetime "updated_at", null: false
-    t.integer "user_id"
-    t.integer "venue_id"
-    t.index ["user_id"], name: "index_reviews_on_user_id"
-    t.index ["venue_id"], name: "index_reviews_on_venue_id"
   end
 
   create_table "users", force: :cascade do |t|

@@ -51,38 +51,75 @@ events = [
     capacity: 10,
     time: DateTime.new(2018, 9, 30, 20, 0, 0),
     description: "An opportunity to plumpen oneself in a horde with the delights of the fat witch.",
-    venue_id: 1
+    venue_id: 1,
+    host_id: 1
   },
   {
     title: "Soul Foodies",
     capacity: 8,
     time: DateTime.new(2018, 10, 30, 21, 0, 0),
     description: "Come to Harlem to eat the best chicken and waffles you'll ever have.",
-    venue_id: 2
+    venue_id: 2,
+    host_id: 2
   },
   {
     title: "Time for House",
     capacity: 20,
     time: DateTime.new(2018, 9, 15, 23, 0, 0),
     description: "Dance to the music of the hottest DJs in the world in an intimate club in the Meatpacking District.",
-    venue_id: 3
+    venue_id: 3,
+    host_id: 3
   },
   {
     title: "Rides Galore",
     capacity: 10,
     time: DateTime.new(2018, 8, 30, 13, 0, 0),
     description: "Let's go to Coney Island and live it up the end of summer.",
-    venue_id: 4
+    venue_id: 4,
+    host_id: 4
   },
   {
     title: "Book buddies",
     capacity: 20,
     time: DateTime.new(2018, 10, 30, 14, 0, 0),
     description: "Bring your favorite scary novel or request one from the special collections stack!",
-    venue_id: 5
-  },
+    venue_id: 5,
+    host_id: 5
+  }
 ]
 
 events.each do |event|
   Event.create(event)
+end
+
+comments = [
+  {
+    text: "So excited",
+    user_id: 2,
+    event_id: 1
+  },
+  {
+    text: "I hate you. I can't make it.",
+    user_id: 3,
+    event_id: 2
+  },
+  {
+    text: "So excited",
+    user_id: 4,
+    event_id: 3
+  },
+  {
+    text: "So excited",
+    user_id: 5,
+    event_id: 4
+  },
+  {
+    text: "So excited",
+    user_id: 1,
+    event_id: 5
+  }
+]
+
+comments.each do |comment|
+  Comment.create(comment)
 end
