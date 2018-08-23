@@ -1,6 +1,7 @@
 <h1><%= @event.title %></h1>
 
-Description: <%= @event.description %>
+<p>Host: <%= link_to @event.host.name, user_path(@event.host) %></p>
+<p>Description: <%= @event.description %></p>
 
 <p>Time: <%= @event.time.strftime("%m/%d/%Y at %I:%M%p") %></p>
 
@@ -14,9 +15,7 @@ Description: <%= @event.description %>
   <p><%= link_to user.name, user_path(user) %></p>
 <% end %>
 
-<p>Would you like to come along? Signup!</p>
-
-<%= button_to "Je suis là! Join this event!" %>
+<%= button_to "Je suis là! Join this event!", user_events_path(@event), method: :patch %>
 
 <h3>Comments</h3>
 

@@ -3,6 +3,8 @@ Rails.application.routes.draw do
   resources :events
   resources :users
 
+  patch '/event/:id', to: 'events#add_user', as: 'user_events'
+
   get '/profile', to: 'users#profile', as: 'profile'
   get '/profile/edit', to: 'users#edit', as: 'edit_profile'
 
