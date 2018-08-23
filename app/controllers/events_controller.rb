@@ -9,11 +9,9 @@ class EventsController < ApplicationController
     @event = Event.new
   end
 
-  def create #testing
-    @event = Event.create(event_params)
+  def create
+    @event = Event.create(create_params)
     @event.host_id = session[:user_id]
-    @event.time = Chronic.parse(params[:time])
-
     if @event.save
       redirect_to event_path(@event)
     else
@@ -22,7 +20,7 @@ class EventsController < ApplicationController
   end
 
   def update
-    @event.update(event_params)
+    @event.update(update_params)
     if @event.valid?
       flash[:notice] = 'Successfully updated your event!'
       redirect_to event_path(@event)
@@ -42,7 +40,11 @@ class EventsController < ApplicationController
       @event = Event.find_by_id(params[:id])
     end
 
-    def event_params
-      params.require(:event).permit(:title, :capacity, :time, :description, :venue_id, :host_id, user_id: [])
+    def create_params
+      params.require(:event).permit(:title, :capacity, :time, :description, :venue_id)
+    end
+
+    def update_params
+      params.require(:event).permit(:title, :capacity, :time, :description, :venue_id, user_id: [])
     end
 end
