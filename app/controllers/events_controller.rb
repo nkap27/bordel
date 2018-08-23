@@ -53,8 +53,12 @@ class EventsController < ApplicationController
   end
 
   def destroy
-    @event.destroy
-    redirect_to events_path
+    if @event.host_id == session[:user_id]
+      @event.destroy
+      redirect_to events_path
+    else
+      redirect_to event_path(@event)
+    end
   end
 
   def create_comment

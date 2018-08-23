@@ -482,6 +482,9 @@ Tuesday 5pm</String>
             </Appearance>
             <String>Add Hosts &amp; Attendees: DB, Models &amp; feature functionality</String>
             <ConnectedNoteIDs>77</ConnectedNoteIDs>
+            <Formatting>
+                <FormatRange Italic="Yes" Underline="Yes">0,57</FormatRange>
+            </Formatting>
         </Note>
         <Note ID="83" FontSize="12.0" Position="1447.0,617.0" Width="88.0">
             <Appearance>
@@ -771,6 +774,9 @@ Tuesday 5pm</String>
                 <Alignment>Left</Alignment>
             </Appearance>
             <String>Refactor: Cookies, Password</String>
+            <Formatting>
+                <FormatRange Italic="Yes" Underline="Yes">0,27</FormatRange>
+            </Formatting>
         </Note>
         <Note ID="122" FontSize="12.0" Position="1274.0,414.0" Width="81.0">
             <Appearance>
@@ -794,6 +800,9 @@ Tuesday 5pm</String>
                 <Alignment>Left</Alignment>
             </Appearance>
             <String>Add Comments</String>
+            <Formatting>
+                <FormatRange Italic="Yes" Underline="Yes">0,12</FormatRange>
+            </Formatting>
         </Note>
         <Note ID="125" FontSize="12.0" Position="1555.0,550.0" Width="35.0">
             <Appearance>
@@ -843,6 +852,9 @@ Reviews?</String>
             </Appearance>
             <String>Refactor model &amp; DB</String>
             <ConnectedNoteIDs>69</ConnectedNoteIDs>
+            <Formatting>
+                <FormatRange Underline="Yes">0,19</FormatRange>
+            </Formatting>
         </Note>
         <Note ID="132" FontSize="12.0" Position="344.0,935.0" Width="69.0">
             <Appearance>
@@ -854,9 +866,15 @@ Reviews?</String>
                 <FormatRange Underline="Yes">0,10</FormatRange>
             </Formatting>
         </Note>
+        <Note ID="133" FontSize="12.0" Position="1467.0,697.0" Width="141.0">
+            <Appearance>
+                <Alignment>Left</Alignment>
+            </Appearance>
+            <String>Add edit button to events</String>
+        </Note>
     </Notes>
     <BackgroundShapes></BackgroundShapes>
-    <AutoFit>2-3, 6, 8-9, 11-15, 17, 20-22, 27-28, 30, 32-36, 53, 55-64, 67-80, 84, 89-110, 112-117, 119, 121-124, 126-127, 129, 131-132</AutoFit>
+    <AutoFit>2-3, 6, 8-9, 11-15, 17, 20-22, 27-28, 30, 32-36, 53, 55-64, 67-80, 84, 89-110, 112-117, 119, 121-124, 126-127, 129, 131-133</AutoFit>
     <NoteStyles>
         <Style Name="Bubble (Blue)" ID="9E12C108-5999-4D80-944D-521025ECDED4" AffectFontStyle="No" AffectAlignment="No" AffectTextColor="No" AffectNoteBody="Yes" AffectFade="No">
             <BorderThickness>1</BorderThickness>
