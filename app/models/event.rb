@@ -14,4 +14,8 @@ class Event < ApplicationRecord
     end
   end
 
+  def text_comments
+    comments.select { |comment| comment.text != nil  }
+  end
+
 end
