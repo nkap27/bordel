@@ -11,6 +11,9 @@ class EventsController < ApplicationController
 
   def create #testing
     @event = Event.create(event_params)
+    @event.host_id = session[:user_id]
+    @event.time = Chronic.parse(params[:time])
+
     if @event.save
       redirect_to event_path(@event)
     else
