@@ -1,4 +1,6 @@
 <h1><%= @venue.name %></h1>
 
+<%= link_to 'Create Event at this venue', new_event_path %>
+
 
 <%= @venue.category%>,  <%= @venue.address%>,  <%= link_to 'Website', @venue.url %>

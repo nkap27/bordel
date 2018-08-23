@@ -1,6 +1,10 @@
+<h3>Events</h3>
+
+<%= link_to 'Create an Event!', new_event_path %>
+
 <% @events.each do |event| %>
-  <p><%= link_to event.title, event_path(event) %></p>
-  <p><%= event.venue.name %></p>
+  <h3><%= link_to event.title, event_path(event) %></h3>
+  <p>Venue: <%= event.venue.name %></p>
   <p><%= event.venue.category %></p>
-  <p><%= event.time.strftime("%m/%d/%Y at %I:%M%p") %></p>
+  <p>When: <%= event.time.strftime("%m/%d/%Y at %I:%M%p") %></p>
 <% end %>

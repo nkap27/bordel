@@ -17,9 +17,9 @@ class UsersController < ApplicationController
   def create
     @user = User.create(user_params)
     if @user.valid?
-      flash[:notice] = 'Signup successful! Bienvenue, #{@user.name}.'
+      flash[:notice] = "Signup successful! Bienvenue, #{@user.name}."
       session[:user_id] = @user.id
-      redirect_to(@user)
+      redirect_to user_path(@user)
     else
       render :new
     end

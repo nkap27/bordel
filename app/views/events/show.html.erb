@@ -1,11 +1,12 @@
 <h1><%= @event.title %></h1>
 
-<p>Venue: <%= @event.venue.name %></p>
+Description: <%= @event.description %>
+
 <p>Time: <%= @event.time.strftime("%m/%d/%Y at %I:%M%p") %></p>
 
 <h3> Venue Info </h3>
-
-<%= @event.venue.category%>,  <%= @event.venue.address%>,  <%= link_to 'Website', @event.venue.url %>
+<p>Venue: <%= @event.venue.name %></p>
+<%= @event.venue.address%>,  <%= link_to 'Website', @event.venue.url %>
 
 <h3>Casse-Cou Attending</h3>
 
@@ -13,11 +14,14 @@
   <p><%= link_to user.name, user_path(user) %></p>
 <% end %>
 
-Would you like to come along? Signup <%= link_to "here", edit_event_path(@event) %>.
+<p>Would you like to come along? Signup!</p>
+
+<%= button_to "Je suis là! Join this event!" %>
 
 <h3>Comments</h3>
 
 <% @event.comments.each do |comment| %>
+  <p><%= comment.user.username %></p>
   <p><%= comment.text %></p>
-  <p>Created at: <%= comment.created_at.strftime("%m/%d/%Y at %I:%M%p") %></p>
+  <p><%= comment.created_at.strftime("%m/%d/%Y at %I:%M%p") %></p>
 <% end %>

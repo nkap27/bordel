@@ -1,4 +1,11 @@
 <%= form_for @event do |f| %>
+
+  <% @event.errors.any? do %>
+    <% @event.errors.full_messages.each do |message| %>
+      <p><%= message %></p>
+    <% end %>
+  <% end %>
+
   <p><%= f.label :title %>
   <%= f.text_field :title %></p>
 
