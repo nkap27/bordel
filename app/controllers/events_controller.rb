@@ -1,5 +1,5 @@
 class EventsController < ApplicationController
-  before_action :set_event, only: [:show, :edit, :update, :destroy, :add_user]
+  before_action :set_event, only: [:show, :edit, :update, :destroy, :add_user, :remove_user]
 
   def index
     @events = Event.all
@@ -30,6 +30,15 @@ class EventsController < ApplicationController
   def add_user
     @event.users << User.find_by_id(session[:user_id])
     flash[:notice] = 'See you there!'
+    redirect_to event_path(@event)
+  end
+
+  def remove_user
+    @event.comments.each do|comment|
+      if comment.user_id == session[:user_id]
+        comment.destroy
+      end
+    end
     redirect_to event_path(@event)
   end
 

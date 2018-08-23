@@ -14,8 +14,8 @@
   <p><%= link_to user.name, user_path(user) %></p>
 <% end %>
 
-<%= button_to "Je suis là! Join this event!", user_events_path(@event), method: :patch %>
-
+<p><%= button_to "Je suis là! Join this event!", user_events_path(@event), method: :patch %></p>
+<p><%= button_to "Cancel Attending", remove_user_path(@event), method: :delete %></p>
 <h2>Comments</h2>
 <%= form_for @comment, url: create_comment_path(@event.id) do |f| %>
 <%= f.label :text %>
