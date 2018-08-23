@@ -19,7 +19,7 @@ class UsersController < ApplicationController
     if @user.valid?
       flash[:notice] = "Signup successful! Bienvenue, #{@user.name}."
       session[:user_id] = @user.id
-      redirect_to user_path(@user)
+      redirect_to events_path
     else
       render :new
     end
