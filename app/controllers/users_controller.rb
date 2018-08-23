@@ -6,6 +6,13 @@ class UsersController < ApplicationController
     @users = User.all
   end
 
+  def show
+    @event_hash = {}
+    @user.events.each do |event|
+      @event_hash[event.id] = event
+    end
+  end
+
   def profile
     render :show
   end
