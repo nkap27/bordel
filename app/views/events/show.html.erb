@@ -10,14 +10,18 @@
 <%= @event.venue.address%>,  <%= link_to 'Website', @event.venue.url %>
 
 <h2>Casse-Cou Attending</h2>
-
-<% @event.users.each do |user| %>
+<% @user_hash.each do |id, user| %>
   <p><%= link_to user.name, user_path(user) %></p>
 <% end %>
 
 <%= button_to "Je suis là! Join this event!", user_events_path(@event), method: :patch %>
 
 <h2>Comments</h2>
+<%= form_for @comment, url: create_comment_path(@event.id) do |f| %>
+<%= f.label :text %>
+<%= f.text_area :text %>
+<%= f.submit "Add Comment" %></p>
+<% end %>
 
 <% @event.text_comments.each do |comment| %>
   <p><%= comment.user.username %></p>

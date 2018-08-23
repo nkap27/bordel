@@ -8,13 +8,14 @@
 <p><%= link_to "Edit Casse-cou", edit_user_path(@user) %></p>
 <p><%= button_to "Delete", user_path(@user), method: :delete %></p>
 
-<% @user.events.each do |event| %>
+
+<h3>Salle Hosting:</h3>
+<% @user.events_hosting.each do |event| %>
   <p><%= link_to event.title, event_path(event) %></p>
 <% end %>
 
 
-<!-- List of events hosting
-
-List of events attending
-Link to edit profile
-Small form for create event-->
+<h3>Salle Attending:</h3>
+<% @event_hash.each do |id, event| %>
+<p><%= link_to event.title, event_path(event) %></p>
+<% end %>

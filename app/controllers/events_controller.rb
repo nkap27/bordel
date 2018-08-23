@@ -9,6 +9,14 @@ class EventsController < ApplicationController
     @event = Event.new
   end
 
+  def show
+    @comment = Comment.new
+    @user_hash = {}
+    @event.users.each do |user|
+      @user_hash[user.id] = user
+    end
+  end
+
   def create
     @event = Event.create(create_params)
     @event.host_id = session[:user_id]
@@ -40,12 +48,24 @@ class EventsController < ApplicationController
     redirect_to events_path
   end
 
+  def create_comment
+    @comment = Comment.new(create_comment_params)
+    @comment.user_id = session[:user_id]
+    @comment.event_id = params[:event_id]
+    if @comment.valid?
+      @comment.save
+    end
+    redirect_to event_path(@comment.event_id)
+  end
   private
 
     def set_event
       @event = Event.find_by_id(params[:id])
     end
 
+    def create_comment_params
+      params.require(:comment).permit(:text)
+    end
     def create_params
       params.require(:event).permit(:title, :capacity, :time, :description, :venue_id, user_ids: [])
     end
