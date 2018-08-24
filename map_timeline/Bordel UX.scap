@@ -184,15 +184,22 @@
             </Appearance>
             <String>1. More Seeds 2:30
 2. Layout: NOW (3. Three homepage data methods)
-3. CSS: 1-3</String>
+3. CSS: 1-3
+4. fix navbar links (checkout events)</String>
             <Formatting>
                 <FormatRange Bold="Yes">14,4</FormatRange>
-                <FormatRange Bold="Yes">75,3</FormatRange>
+                <FormatRange Bold="Yes">75,41</FormatRange>
             </Formatting>
+        </Note>
+        <Note ID="25" FontSize="12.0" Position="757.0,604.0" Width="86.0">
+            <Appearance>
+                <Alignment>Left</Alignment>
+            </Appearance>
+            <String>link_to #profile</String>
         </Note>
     </Notes>
     <BackgroundShapes></BackgroundShapes>
-    <AutoFit>0-8, 10-22</AutoFit>
+    <AutoFit>0-8, 10-22, 25</AutoFit>
     <NoteStyles>
         <Style Name="Bubble (Blue)" ID="E9E6142C-27D2-4958-A50B-0E18AAFFB646" AffectFontStyle="No" AffectAlignment="No" AffectTextColor="No" AffectNoteBody="Yes" AffectFade="No">
             <BorderThickness>1</BorderThickness>

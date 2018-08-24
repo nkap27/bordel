@@ -5,7 +5,14 @@
     <title></title>
   </head>
   <body>
-    
+    <h1>Who are you? Casse-cou!</h1>
+    <% @user.events.any? do %>
+    <h3><%= link_to @user.most_intimate.title, event_path(@user.most_intimate)%> has <%= @user.most_intimate.unique_users.count %> casse-cou attending.</h3>
+    <h3><%= link_to @user.most_popular.title, event_path(@user.most_popular) %> has <%= @user.most_popular.unique_users.count%> casse-cou attending.</h3>
+    <% end %>
 
+    <% if @user.events.empty? %>
+      <h3>Find some <%= link_to 'events!', events_path %><h3>
+    <% end %>
   </body>
 </html>

@@ -19,4 +19,9 @@ class Event < ApplicationRecord
   def text_comments
     comments.select { |comment| comment.text != nil  }.reverse
   end
+
+  def unique_users
+    users.uniq
+  end
+
 end
