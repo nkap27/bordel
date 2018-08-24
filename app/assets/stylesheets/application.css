@@ -1,15 +1,142 @@
-/*
- * This is a manifest file that'll be compiled into application.css, which will include all the files
- * listed below.
- *
- * Any CSS and SCSS file within this directory, lib/assets/stylesheets, or any plugin's
- * vendor/assets/stylesheets directory can be referenced here using a relative path.
- *
- * You're free to add application-wide styles to this file and they'll appear at the bottom of the
- * compiled file so the styles you add here take precedence over styles defined in any other CSS/SCSS
- * files in this directory. Styles in this file should be added after the last require_* statement.
- * It is generally better to create a new file per style scope.
- *
- *= require_tree .
- *= require_self
- */
+* {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+.landing {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url(../images/bordel.jpg);
+  background-size: cover;
+  background-position: center;
+  height: 100vh;
+  background-attachment: fixed;
+}
+
+.row {
+  max-width: 1140px;
+  margin: 0 auto;
+}
+
+.main-nav,
+.other-nav {
+  float: right;
+  list-style: none;
+  margin-top: 55px;
+}
+
+.main-nav li,
+.other-nav li {
+  display: inline-block;
+  margin-left: 40px;
+}
+
+.main-nav li a:link,
+.main-nav li a:visited {
+  padding: 7px 0;
+  color: #fff;
+  text-decoration: none;
+  text-transform: uppercase;
+  font-size: 90%;
+  border-bottom: 2px solid #e67e22 transparent;
+  -webkit transition: border-bottom 0.2s;
+  transition: border-bottom 0.2s;
+}
+
+.other-nav li a:link,
+.other-nav li a:visited {
+  padding: 7px 0;
+  color: black;
+  text-decoration: none;
+  text-transform: uppercase;
+  font-size: 90%;
+  border-bottom: 2px solid #e67e22 transparent;
+  -webkit transition: border-bottom 0.2s;
+  transition: border-bottom 0.2s;
+}
+
+.hero-text-box {
+    position:absolute;
+    width:1140px;
+    top:50%;
+    left:50%;
+    -webkit-transform:translate(-50%, -50%);
+    transform:translate(-50%, -50%);
+    padding-left: 20px;
+}
+
+.btn:link,
+.btn:visited,
+input[type=submit]
+{
+    display:inline-block;
+    padding: 10px 30px;
+    font-weight:300;
+    text-decoration:none;
+    border-radius:200px;
+    -webkit-transition: background-color 0.2s, border 0.2s, color 0.2s;
+    transition: background-color 0.2s, border 0.2s, color 0.2s;
+}
+
+.btn-full:link,
+.btn-full:visited,
+input[type=submit] {
+    background-color: #A10663;
+    border:1px solid #A10663;
+    color:#fff;
+    margin-right: 15px;
+}
+
+.btn-ghost:link,
+.btn-ghost:visited {
+    border:1px solid #A10663;
+    color: #A10663;
+}
+
+.btn:hover,
+.btn:active,
+input[type=submit]:hover,
+input[type=submit]:active {
+    background-color:#A10663;
+}
+
+.btn-full:hover,
+.btn-full:active,
+input[type=submit] {
+    border:1px solid #8a0053;
+    background-color: #8a0053;
+}
+
+.btn-ghost:hover,
+.btn-ghost:active {
+    border:1px solid #A10663;
+    color: #fff;
+}
+
+.title {
+  padding-top: 30px;
+  padding-left: 80px;
+  font-size: 80px;
+  color: #e6e0e0;
+  font-family: 'Berkshire Swash', cursive;
+}
+
+.text-box {
+  font-family: 'Homemade Apple', cursive;
+  font-size: 35px;
+  color: #d8cfd7;
+  padding-bottom: 10px;
+}
+
+.html-style {
+  float:left;
+  padding: 80px 80px;
+}
+
+.other-nav {
+  list-style: none;
+}
+
+.inline-block {
+  display: inline-block;
+}

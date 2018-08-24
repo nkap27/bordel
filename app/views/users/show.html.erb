@@ -9,13 +9,13 @@
 <p><%= button_to "Delete", user_path(@user), method: :delete %></p>
 
 
-<h3>Salle Hosting:</h3>
+<h3>Salle Hosting:</h3></br>
 <% @user.events_hosting.each do |event| %>
   <p><%= link_to event.title, event_path(event) %></p>
-<% end %>
+<% end %></br>
 
 
-<h3>Salle Attending:</h3>
+<h3>Salle Attending:</h3></br>
 <% @event_hash.each do |id, event| %>
 <p><%= link_to event.title, event_path(event) %></p>
 <% end %>

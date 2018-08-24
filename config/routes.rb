@@ -3,6 +3,8 @@ Rails.application.routes.draw do
   resources :events
   resources :users
 
+  get '/', to: 'sessions#start', as: 'root'
+
   patch '/event/:id', to: 'events#add_user', as: 'user_events'
   delete '/event/:id', to: 'events#remove_user', as: 'remove_user'
   #

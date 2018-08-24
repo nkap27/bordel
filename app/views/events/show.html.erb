@@ -1,26 +1,41 @@
 <h1><%= @event.title %></h1>
+</br>
+
+<%= button_to "Delete Event", event_path(@event), method: :delete %>
+<%= link_to "Edit Event", edit_event_path(@event) %>
+</br>
+</br>
+</br>
 
 <p>Host: <%= link_to @event.host.name, user_path(@event.host) %></p>
 <p>Description: <%= @event.description %></p>
 
 <p>Time: <%= @event.time.strftime("%m/%d/%Y at %I:%M%p") %></p>
+</br>
 
 <h3> Venue Info </h3>
 <p>Venue: <%= @event.venue.name %></p>
 <%= @event.venue.address%>,  <%= link_to 'Website', @event.venue.url %>
+</br>
+</br>
 
-<p><%= button_to "Delete Event", event_path(@event), method: :delete %>
-<p><%= link_to "Edit Event", edit_event_path(@event) %></p>
-</p>
+</br>
+</br>
 
 
 <h2>Casse-Cou Attending</h2>
 <% @user_hash.each do |id, user| %>
   <p><%= link_to user.name, profile_path(user) %></p>
 <% end %>
+</br>
+</br>
+<div class = 'inline-block'>
+  <%= button_to "Je suis là! Join this event!", user_events_path(@event), method: :patch %>
+  <%= button_to "Cancel Attending", remove_user_path(@event), method: :delete %>
+</div>
 
-<p><%= button_to "Je suis là! Join this event!", user_events_path(@event), method: :patch %></p>
-<p><%= button_to "Cancel Attending", remove_user_path(@event), method: :delete %></p>
+</br>
+</br>
 <h2>Comments</h2>
 <%= form_for @comment, url: create_comment_path(@event.id) do |f| %>
 <%= f.label :text %>
@@ -32,4 +47,5 @@
   <p><%= comment.user.username %></p>
   <p><%= comment.text %></p>
   <p><%= comment.created_at.strftime("%m/%d/%Y at %I:%M%p") %></p>
+</br>
 <% end %>

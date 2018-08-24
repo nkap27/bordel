@@ -1,6 +1,7 @@
 <!DOCTYPE html>
-<html class = "html-style">
+<html lang="en" dir="ltr">
   <head>
+    <meta charset="utf-8">>
     <title>Bordel</title>
     <%= csrf_meta_tags %>
     <%= csp_meta_tag %>
@@ -10,24 +11,28 @@
     <link href="https://fonts.googleapis.com/css?family=Lato:100,300,300i,400" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css?family=Homemade+Apple" rel="stylesheet">
   </head>
-
   <body>
-    <header>
-      <nav class>
+    <header class = "landing">
+      <nav>
         <div class="row">
-          <ul class = "other-nav">
-            <li><%= link_to 'Home', home_path %></li>
-            <li><%= link_to 'Create Event', new_event_path %></li>
-            <li><%= link_to 'Checkout events', events_path %></li>
-            <li><%= link_to 'Venues', venues_path %></li>
+          <ul class = "main-nav">
+            <li><a href="./home">Who are we</a></li>
+            <li><a href="./events/new">How it works</a></li>
             <li><%= logged_in? ? button_to('Logout', logout_path, method: :delete) : link_to('Login', login_path) %></li>
           </ul>
         </div>
       </nav>
-    </header>
+
+      <h1 class = "title">Bordel!</h1>
+
+      <div class="hero-text-box">
+        <h3 class = "text-box">Au revoir Bordel!</br>Hello making new friends.</h3>
+        <a class = "btn btn-full" href="./users/new">Sign Up</a>
+        <a class = "btn btn-ghost" href="#">Discover</a>
+      </div>
 
 
-
-    <%= yield %>
+      </header>
+      <%= yield %>
   </body>
 </html>

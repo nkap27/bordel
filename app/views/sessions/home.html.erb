@@ -6,9 +6,17 @@
   </head>
   <body>
     <h1>Who are you? Casse-cou!</h1>
+  </br>
+  </br>
+
     <% @user.events.any? do %>
-    <h3><%= link_to @user.most_intimate.title, event_path(@user.most_intimate)%> has <%= @user.most_intimate.unique_users.count %> casse-cou attending.</h3>
-    <h3><%= link_to @user.most_popular.title, event_path(@user.most_popular) %> has <%= @user.most_popular.unique_users.count%> casse-cou attending.</h3>
+    <h3>Your next scheduled intimate evening!</h3>
+    </br>
+    <h4><%= link_to @user.most_intimate.title, event_path(@user.most_intimate)%> has <%= @user.most_intimate.unique_users.count %> casse-cou attending.</h4>
+    </br>
+    <h3>Your next big party mixer!</h3>
+    </br>
+    <h4><%= link_to @user.most_popular.title, event_path(@user.most_popular) %> has <%= @user.most_popular.unique_users.count%> casse-cou attending.</h4>
     <% end %>
 
     <% if @user.events.empty? %>

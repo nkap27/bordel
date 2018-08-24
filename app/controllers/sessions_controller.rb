@@ -6,6 +6,10 @@ class SessionsController < ApplicationController
     render :new
   end
 
+  def start
+    render layout: "start"
+  end
+
   def create
     @user = User.find_by({ username: params[:username]})
     if !!@user && @user.authenticate(params[:password])
@@ -24,7 +28,7 @@ class SessionsController < ApplicationController
 
   def destroy
     session.delete(:user_id)
-    redirect_to login_path
+    redirect_to root_path
   end
 
   private
