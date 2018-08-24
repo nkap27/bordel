@@ -9,7 +9,9 @@
 <p>Venue: <%= @event.venue.name %></p>
 <%= @event.venue.address%>,  <%= link_to 'Website', @event.venue.url %>
 
-<p><%= button_to "Delete Event", event_path(@event), method: :delete %></p>
+<p><%= button_to "Delete Event", event_path(@event), method: :delete %>
+<p><%= link_to "Edit Event", edit_event_path(@event) %></p>
+</p>
 
 
 <h2>Casse-Cou Attending</h2>
