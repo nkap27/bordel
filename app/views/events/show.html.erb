@@ -14,7 +14,7 @@
 
 <h2>Casse-Cou Attending</h2>
 <% @user_hash.each do |id, user| %>
-  <p><%= link_to user.name, user_path(user) %></p>
+  <p><%= link_to user.name, profile_path(user) %></p>
 <% end %>
 
 <p><%= button_to "Je suis là! Join this event!", user_events_path(@event), method: :patch %></p>

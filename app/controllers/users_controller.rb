@@ -1,6 +1,6 @@
 class UsersController < ApplicationController
   skip_before_action :authorized, only: [:new, :create, :show]
-  before_action :set_user, only: [:show, :edit, :update, :destroy]
+  before_action :set_user, only: [:show, :profile, :edit, :update, :destroy]
 
   def index
     @users = User.all
@@ -13,10 +13,9 @@ class UsersController < ApplicationController
     end
   end
 
-  # def profile
-  # add before_action :profile
-  #   redirect_to user_path(@user)
-  # end
+  def profile
+    redirect_to profile_path(@user)
+  end
 
   def new
     @user = User.new
