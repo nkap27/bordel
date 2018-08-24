@@ -43,12 +43,16 @@ class EventsController < ApplicationController
   end
 
   def update
-    @event.update(update_params)
-    if @event.valid?
-      flash[:notice] = 'Successfully updated your event!'
-      redirect_to event_path(@event)
+    if @event.host_id == session[:user_id]
+      @event.update(update_params)
+      if @event.valid?
+        flash[:notice] = 'Successfully updated your event!'
+        redirect_to event_path(@event)
+      else
+        render :edit
+      end
     else
-      render :edit
+      redirect_to event_path(@event)
     end
   end
 

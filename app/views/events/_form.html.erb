@@ -10,7 +10,7 @@
   <%= f.text_field :title %></p>
 
   <p><%= f.label :capacity %>
-  <%= f.number_field :capacity %></p>
+  <%= f.number_field :capacity, in: 1..500 %></p>
 
   <p><%= f.label :time %>
   <%= f.datetime_field :time %></p>
