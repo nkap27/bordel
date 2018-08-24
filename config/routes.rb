@@ -12,6 +12,7 @@ Rails.application.routes.draw do
   get '/signup', to: 'users#new', as: 'signup'
   get '/login', to: 'sessions#new', as: 'login'
   post '/login', to: 'sessions#create'
+  get '/home', to: 'sessions#home', as: 'home'
   delete '/logout', to: 'sessions#destroy', as: 'logout'
 
   post "/events/:event_id/comments", to: "events#create_comment", as: "create_comment"

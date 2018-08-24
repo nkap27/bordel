@@ -4,6 +4,8 @@
         <Note ID="0" FontSize="12.0" Position="890.0,116.0" Width="46.0">
             <Appearance>
                 <Alignment>Left</Alignment>
+                <Border Weight="1">0.794621 0.428795 0.077369</Border>
+                <Fill>0.98806 0.315936 0.08648</Fill>
             </Appearance>
             <String>LOGIN</String>
             <ConnectedNoteIDs>1-2</ConnectedNoteIDs>
@@ -12,6 +14,8 @@
         <Note ID="1" FontSize="12.0" Position="1051.675781,277.308594" Width="88.0">
             <Appearance>
                 <Alignment>Left</Alignment>
+                <Border Weight="1">0.794621 0.428795 0.077369</Border>
+                <Fill>0.98806 0.315936 0.08648</Fill>
             </Appearance>
             <String>CREATE NEW</String>
             <ConnectedNoteIDs>0, 2</ConnectedNoteIDs>
@@ -20,6 +24,7 @@
         <Note ID="2" FontSize="12.0" Position="720.664062,286.039062" Width="80.0">
             <Appearance>
                 <Alignment>Left</Alignment>
+                <Fill>0.731856 0.242921 0.978714</Fill>
             </Appearance>
             <String>HOME PAGE</String>
             <ConnectedNoteIDs>0-1, 3-6, 10-14</ConnectedNoteIDs>
@@ -27,6 +32,7 @@
         <Note ID="3" FontSize="12.0" Position="380.738281,392.042969" Width="124.0">
             <Appearance>
                 <Alignment>Left</Alignment>
+                <Fill>0.731856 0.242921 0.978714</Fill>
             </Appearance>
             <String>#most_popular_event</String>
             <ConnectedNoteIDs>2</ConnectedNoteIDs>
@@ -34,6 +40,7 @@
         <Note ID="4" FontSize="12.0" Position="373.5,508.625" Width="118.0">
             <Appearance>
                 <Alignment>Left</Alignment>
+                <Fill>0.731856 0.242921 0.978714</Fill>
             </Appearance>
             <String>#most_popular_user</String>
             <ConnectedNoteIDs>2</ConnectedNoteIDs>
@@ -41,6 +48,7 @@
         <Note ID="5" FontSize="12.0" Position="377.125,451.085938" Width="117.0">
             <Appearance>
                 <Alignment>Left</Alignment>
+                <Fill>0.731856 0.242921 0.978714</Fill>
             </Appearance>
             <String>#most_popular_host</String>
             <ConnectedNoteIDs>2</ConnectedNoteIDs>
@@ -48,6 +56,7 @@
         <Note ID="6" FontSize="12.0" Position="571.605469,435.574219" Width="96.0">
             <Appearance>
                 <Alignment>Left</Alignment>
+                <Fill>0.731856 0.242921 0.978714</Fill>
             </Appearance>
             <String>ethos paragraph</String>
             <ConnectedNoteIDs>2</ConnectedNoteIDs>
@@ -55,16 +64,20 @@
         <Note ID="7" FontSize="12.0" Position="961.261719,203.941406" Width="129.0">
             <Appearance>
                 <Alignment>Left</Alignment>
+                <Border Weight="1">0.794621 0.428795 0.077369</Border>
+                <Fill>0.98806 0.315936 0.08648</Fill>
             </Appearance>
             <String>link_to new_user_path</String>
         </Note>
         <Note ID="8" FontSize="12.0" Position="917.507812,275.351562" Width="65.0">
             <Appearance>
                 <Alignment>Left</Alignment>
+                <Border Weight="1">0.794621 0.428795 0.077369</Border>
+                <Fill>0.98806 0.315936 0.08648</Fill>
             </Appearance>
             <String>redirect_to</String>
         </Note>
-        <Note ID="10" FontSize="12.0" Position="1098.84375,458.734375" Width="59.0">
+        <Note ID="10" FontSize="12.0" Position="1100.546875,455.816406" Width="59.0">
             <Appearance>
                 <Alignment>Left</Alignment>
             </Appearance>
@@ -74,86 +87,98 @@
                 <FormatRange Italic="Yes">0,8</FormatRange>
             </Formatting>
         </Note>
-        <Note ID="11" FontSize="12.0" Position="726.328125,368.96875" Width="116.0">
+        <Note ID="11" FontSize="12.0" Position="730.34375,378.566406" Width="116.0">
             <Appearance>
                 <Alignment>Left</Alignment>
+                <Fill>0.731856 0.242921 0.978714</Fill>
             </Appearance>
             <String>link_to event#create</String>
             <ConnectedNoteIDs>2</ConnectedNoteIDs>
         </Note>
-        <Note ID="12" FontSize="12.0" Position="727.0,404.0" Width="111.0">
+        <Note ID="12" FontSize="12.0" Position="765.148438,510.320312" Width="111.0">
             <Appearance>
                 <Alignment>Left</Alignment>
+                <Fill>0.731856 0.242921 0.978714</Fill>
             </Appearance>
             <String>link_to event#index</String>
-            <ConnectedNoteIDs>2</ConnectedNoteIDs>
+            <ConnectedNoteIDs>2, 22</ConnectedNoteIDs>
         </Note>
-        <Note ID="13" FontSize="12.0" Position="735.0,435.0" Width="115.0">
+        <Note ID="13" FontSize="12.0" Position="773.148438,541.320312" Width="115.0">
             <Appearance>
                 <Alignment>Left</Alignment>
+                <Fill>0.731856 0.242921 0.978714</Fill>
             </Appearance>
             <String>link_to venue#index</String>
-            <ConnectedNoteIDs>2</ConnectedNoteIDs>
+            <ConnectedNoteIDs>2, 22</ConnectedNoteIDs>
         </Note>
-        <Note ID="14" FontSize="12.0" Position="734.0,465.0" Width="111.0">
+        <Note ID="14" FontSize="12.0" Position="772.148438,571.320312" Width="111.0">
             <Appearance>
                 <Alignment>Left</Alignment>
+                <Fill>0.731856 0.242921 0.978714</Fill>
             </Appearance>
             <String>link_to users#index</String>
-            <ConnectedNoteIDs>2</ConnectedNoteIDs>
+            <ConnectedNoteIDs>2, 22</ConnectedNoteIDs>
         </Note>
         <Note ID="15" FontSize="12.0" Position="1254.296875,623.511719" Width="104.0">
             <Appearance>
                 <Alignment>Left</Alignment>
+                <Fill>0.789243 0.860314 0.989394</Fill>
             </Appearance>
             <String>Event Show Page</String>
         </Note>
         <Note ID="16" FontSize="12.0" Position="1254.308594,720.382812" Width="95.0">
             <Appearance>
                 <Alignment>Left</Alignment>
+                <Fill>0.789243 0.860314 0.989394</Fill>
             </Appearance>
             <String>Event Edit Page</String>
         </Note>
         <Note ID="17" FontSize="12.0" Position="1267.871094,540.398438" Width="72.0">
             <Appearance>
                 <Alignment>Left</Alignment>
+                <Fill>0.789243 0.860314 0.989394</Fill>
             </Appearance>
             <String>Event Index</String>
             <ConnectedNoteIDs>10</ConnectedNoteIDs>
         </Note>
-        <Note ID="18" FontSize="12.0" Position="1081.070312,535.617188" Width="75.0">
+        <Note ID="18" FontSize="12.0" Position="1263.871094,535.277344" Width="75.0">
             <Appearance>
                 <Alignment>Left</Alignment>
+                <Fill>0.789243 0.860314 0.989394</Fill>
             </Appearance>
             <String>Venue Index</String>
-            <ConnectedNoteIDs>10</ConnectedNoteIDs>
+            <ConnectedNoteIDs>10, 22</ConnectedNoteIDs>
         </Note>
         <Note ID="19" FontSize="12.0" Position="1086.863281,624.28125" Width="76.0">
             <Appearance>
                 <Alignment>Left</Alignment>
+                <Fill>0.789243 0.860314 0.989394</Fill>
             </Appearance>
             <String>Venue Show</String>
         </Note>
         <Note ID="20" FontSize="12.0" Position="899.972656,698.28125" Width="64.0">
             <Appearance>
                 <Alignment>Left</Alignment>
+                <Fill>0.789243 0.860314 0.989394</Fill>
             </Appearance>
             <String>Users Edit</String>
         </Note>
         <Note ID="21" FontSize="12.0" Position="910.589844,625.835938" Width="73.0">
             <Appearance>
                 <Alignment>Left</Alignment>
+                <Fill>0.789243 0.860314 0.989394</Fill>
             </Appearance>
             <String>Users Show</String>
         </Note>
         <Note ID="22" FontSize="12.0" Position="918.367188,542.675781" Width="73.0">
             <Appearance>
                 <Alignment>Left</Alignment>
+                <Fill>0.789243 0.860314 0.989394</Fill>
             </Appearance>
             <String>Users Index</String>
-            <ConnectedNoteIDs>10</ConnectedNoteIDs>
+            <ConnectedNoteIDs>10, 12-14, 18</ConnectedNoteIDs>
         </Note>
-        <Note ID="24" FontSize="12.0" Position="1488.0,154.0" Width="232.0">
+        <Note ID="24" FontSize="12.0" Position="1311.40625,182.222656" Width="232.0">
             <Appearance>
                 <Alignment>Left</Alignment>
             </Appearance>

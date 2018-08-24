@@ -9,7 +9,20 @@
   </head>
 
   <body>
-    <%= logged_in? ? button_to('Logout', logout_path, method: :delete) : link_to('Login', login_path) %>
+    <header>
+      <nav>
+        <div class="row">
+          <ul>
+            <li><a href="./events/new">Create Event</a></li>
+            <li><a href="./events">Checkout Events</a></li>
+            <li><a href="./venues">Venues</a></li>
+            <li><a href="./users">Casse-COUsers</a></li>
+            <li><%= logged_in? ? button_to('Logout', logout_path, method: :delete) : link_to('Login', login_path) %></li>
+          </ul>
+        </div>
+      </nav>
+    </header>
+
     <%= yield %>
   </body>
 </html>
