@@ -5,9 +5,9 @@ Rails.application.routes.draw do
 
   patch '/event/:id', to: 'events#add_user', as: 'user_events'
   delete '/event/:id', to: 'events#remove_user', as: 'remove_user'
-
-  get '/profile', to: 'users#profile', as: 'profile'
-  get '/profile/edit', to: 'users#edit', as: 'edit_profile'
+  # 
+  # get '/profile', to: 'users#show', as: 'profile'
+  # get '/profile/edit', to: 'users#edit', as: 'edit_profile'
 
   get '/signup', to: 'users#new', as: 'signup'
   get '/login', to: 'sessions#new', as: 'login'

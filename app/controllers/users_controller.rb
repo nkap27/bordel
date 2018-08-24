@@ -13,9 +13,10 @@ class UsersController < ApplicationController
     end
   end
 
-  def profile
-    render :show
-  end
+  # def profile
+  # add before_action :profile
+  #   redirect_to user_path(@user)
+  # end
 
   def new
     @user = User.new
