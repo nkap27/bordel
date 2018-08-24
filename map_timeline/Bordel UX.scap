@@ -183,12 +183,11 @@
                 <Alignment>Left</Alignment>
             </Appearance>
             <String>1. More Seeds 2:30
-2. Layout: NOW (3. Three homepage data methods)
 3. CSS: 1-3
-4. fix navbar links (checkout events)</String>
+4. fix navbar links (checkout events, users)</String>
             <Formatting>
                 <FormatRange Bold="Yes">14,4</FormatRange>
-                <FormatRange Bold="Yes">75,41</FormatRange>
+                <FormatRange Bold="Yes">27,48</FormatRange>
             </Formatting>
         </Note>
         <Note ID="25" FontSize="12.0" Position="757.0,604.0" Width="86.0">
@@ -196,6 +195,16 @@
                 <Alignment>Left</Alignment>
             </Appearance>
             <String>link_to #profile</String>
+        </Note>
+        <Note ID="26" FontSize="12.0" Position="1306.011719,317.933594" Width="200.0">
+            <Appearance>
+                <Alignment>Left</Alignment>
+            </Appearance>
+            <String>DONE:
+2. Layout: NOW (3. Three homepage data methods)</String>
+            <Formatting>
+                <FormatRange Italic="Yes" Underline="Yes">6,47</FormatRange>
+            </Formatting>
         </Note>
     </Notes>
     <BackgroundShapes></BackgroundShapes>
